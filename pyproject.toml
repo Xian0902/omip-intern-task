@@ -1,0 +1,9 @@
+[project]
+name = "omip-intern-task"
+version = "0.1.0"
+description = "OMIP 論文轉換實習作業：PDF → 繁中翻譯 markdown + 抗體面板 markdown"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pymupdf4llm>=0.2.7",
+]
