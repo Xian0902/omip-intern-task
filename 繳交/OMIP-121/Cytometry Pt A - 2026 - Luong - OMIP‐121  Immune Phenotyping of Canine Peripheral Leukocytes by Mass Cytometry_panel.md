@@ -30,123 +30,53 @@ extracted_at: "2026-09-17"
 
 ## 表 1｜摘要表（Summary table）
 
-  --------------------------------------------------------------------------------------------------
-  欄位                    原文                    繁體中文
-  ----------------------- ----------------------- --------------------------------------------------
-  Purpose 目的            Comprehensive           以質譜流式細胞術全面表徵犬類主要白血球亞群，包括 B
-                          characterization of the 細胞、CD4⁺ 輔助型 T 細胞、調節性 T 細胞、CD8⁺
-                          principal canine        細胞毒性 T 細胞、記憶 T 細胞亞群、NKT 細胞、NK
-                          leukocyte subsets       細胞、樹突細胞、CD4⁺ 單核球、典型單核球與嗜中性球
-                          including B cells, CD4+ 
-                          T helper cells,         
-                          regulatory T cells,     
-                          CD8+ cytotoxic T cells, 
-                          memory T cell subsets,  
-                          NKT cells, NK cells,    
-                          dendritic cells, CD4+   
-                          monocytes, classical    
-                          monocytes, and          
-                          neutrophils by mass     
-                          cytometry               
+| 欄位 | 原文 | 繁體中文 |
+| --- | --- | --- |
+| Purpose 目的 | Comprehensive characterization of the principal canine leukocyte subsets including B cells, CD4+ T helper cells, regulatory T cells, CD8+ cytotoxic T cells, memory T cell subsets, NKT cells, NK cells, dendritic cells, CD4+ monocytes, classical monocytes, and neutrophils by mass cytometry | 以質譜流式細胞術全面表徵犬類主要白血球亞群，包括 B 細胞、CD4⁺ 輔助型 T 細胞、調節性 T 細胞、CD8⁺ 細胞毒性 T 細胞、記憶 T 細胞亞群、NKT 細胞、NK 細胞、樹突細胞、CD4⁺ 單核球、典型單核球與嗜中性球 |
+| Species 物種 | Dog | 犬 |
+| Cell type 細胞類型 | PBMCs | 周邊血單核細胞（PBMCs） |
+| Cross-references 交叉參考 | OMIP 065 | OMIP-065 |
+| Technology 技術 | Mass cytometry | 質譜流式細胞術 |
+| Application 應用 | Research | 研究 |
 
-  Species 物種            Dog                     犬
-
-  Cell type 細胞類型      PBMCs                   周邊血單核細胞（PBMCs）
-
-  Cross-references        OMIP 065                OMIP-065
-  交叉參考                                        
-
-  Technology 技術         Mass cytometry          質譜流式細胞術
-
-  Application 應用        Research                研究
-  --------------------------------------------------------------------------------------------------
 
 ## 表 2｜染色試劑清單（List of staining reagents）
 
-  -------------------------------------------------------------------------------------------------------------------
-            \# Metal       Specificity    Clone 品系    RRID      Purpose（原文）      用途（繁中）
-               金屬標籤    標記                                                        
-  ------------ ----------- -------------- ------------- --------- -------------------- ------------------------------
-             1 <sup>141</sup>Pr       CD45           YKIX716.13    N/A       Pan leukocytes       泛白血球標記
+| # | Metal 金屬標籤 | Specificity 標記 | Clone 品系 | RRID | Purpose（原文） | 用途（繁中） |
+| ---: | --- | --- | --- | --- | --- | --- |
+| 1 | <sup>141</sup>Pr | CD45 | YKIX716.13 | N/A | Pan leukocytes | 泛白血球標記 |
+| 2 | <sup>150</sup>Nd | CD4 | YKIX302.9 | N/A | Helper T cells, monocyte subset, neutrophils | 輔助型 T 細胞、單核球亞群、嗜中性球 |
+| 3 | <sup>151</sup>Eu | CD335 | 48A | N/A | NK cells subset | NK 細胞亞群 |
+| 4 | <sup>152</sup>Sm | CD21 | CA2.1D6 | N/A | B cells | B 細胞 |
+| 5 | <sup>153</sup>Eu | CD25 | P4A10 | N/A | Regulatory T cells, activated T cells | 調節性 T 細胞、活化 T 細胞 |
+| 6 | <sup>159</sup>Tb | CD22 | RFB-4 | N/A | B cells | B 細胞 |
+| 7 | <sup>160</sup>Gd | CD14 | M5E2 | N/A | Monocytes | 單核球 |
+| 8 | <sup>163</sup>Dy | Eomes | WD1928 | N/A | Transcription factor for effector memory T cells and NK cells | 效應記憶 T 細胞與 NK 細胞的轉錄因子 |
+| 9 | <sup>164</sup>Dy | CD44 | YKIX337.8.7 | N/A | Central memory and effector memory T cells | 中央記憶與效應記憶 T 細胞 |
+| 10 | <sup>165</sup>Ho | FoxP3 | FJK-16s | N/A | Transcription factor for regulatory T cells | 調節性 T 細胞的轉錄因子 |
+| 11 | <sup>167</sup>Er | CD8a | YCATE55.9 | N/A | Cytotoxic T cells, NKT cells, DCs, NK cells subset | 細胞毒性 T 細胞、NKT 細胞、樹突細胞、NK 細胞亞群 |
+| 12 | <sup>171</sup>Yb | Granzyme B | GB11 | N/A | Cytotoxic activity, NK cells | 細胞毒殺活性、NK 細胞 |
+| 13 | <sup>173</sup>Yb | MHC-II | YKIX334.2 | N/A | Antigen-presenting cells | 抗原呈現細胞 |
+| 14 | <sup>175</sup>Lu | CD94 | 8H10 | N/A | NKT cells, NK cells | NKT 細胞、NK 細胞 |
+| 15 | <sup>176</sup>Yb | CD3 | CA17.2A12 | N/A | Pan T cells | 泛 T 細胞標記 |
+| 16 | <sup>191</sup>Ir / <sup>193</sup>Ir | Cell-ID Intercalator | N/A | N/A | Single nucleated cell/doublets discrimination | 單一有核細胞／雙細胞事件辨識 |
+| 17 | <sup>195</sup>Pt | Cell-ID Cisplatin | N/A | N/A | Live/dead discrimination | 活／死細胞辨識 |
 
-             2 <sup>150</sup>Nd       CD4            YKIX302.9     N/A       Helper T cells,      輔助型 T
-                                                                  monocyte subset,     細胞、單核球亞群、嗜中性球
-                                                                  neutrophils          
-
-             3 <sup>151</sup>Eu       CD335          48A           N/A       NK cells subset      NK 細胞亞群
-
-             4 <sup>152</sup>Sm       CD21           CA2.1D6       N/A       B cells              B 細胞
-
-             5 <sup>153</sup>Eu       CD25           P4A10         N/A       Regulatory T cells,  調節性 T 細胞、活化 T 細胞
-                                                                  activated T cells    
-
-             6 <sup>159</sup>Tb       CD22           RFB-4         N/A       B cells              B 細胞
-
-             7 <sup>160</sup>Gd       CD14           M5E2          N/A       Monocytes            單核球
-
-             8 <sup>163</sup>Dy       Eomes          WD1928        N/A       Transcription factor 效應記憶 T 細胞與 NK
-                                                                  for effector memory  細胞的轉錄因子
-                                                                  T cells and NK cells 
-
-             9 <sup>164</sup>Dy       CD44           YKIX337.8.7   N/A       Central memory and   中央記憶與效應記憶 T 細胞
-                                                                  effector memory T    
-                                                                  cells                
-
-            10 <sup>165</sup>Ho       FoxP3          FJK-16s      N/A       Transcription factor 調節性 T 細胞的轉錄因子
-                                                                  for regulatory T     
-                                                                  cells                
-
-            11 <sup>167</sup>Er       CD8a           YCATE55.9     N/A       Cytotoxic T cells,   細胞毒性 T 細胞、NKT
-                                                                  NKT cells, DCs, NK   細胞、樹突細胞、NK 細胞亞群
-                                                                  cells subset         
-
-            12 <sup>171</sup>Yb       Granzyme B     GB11          N/A       Cytotoxic activity,  細胞毒殺活性、NK 細胞
-                                                                  NK cells             
-
-            13 <sup>173</sup>Yb       MHC-II         YKIX334.2     N/A       Antigen-presenting   抗原呈現細胞
-                                                                  cells                
-
-            14 <sup>175</sup>Lu       CD94           8H10          N/A       NKT cells, NK cells  NKT 細胞、NK 細胞
-
-            15 <sup>176</sup>Yb       CD3            CA17.2A12     N/A       Pan T cells          泛 T 細胞標記
-
-            16 <sup>191</sup>Ir / <sup>193</sup>Ir   Cell-ID        N/A           N/A       Single nucleated     單一有核細胞／雙細胞事件辨識
-                           Intercalator                           cell/doublets        
-                                                                  discrimination       
-
-            17 <sup>195</sup>Pt       Cell-ID        N/A           N/A       Live/dead            活／死細胞辨識
-                           Cisplatin                              discrimination       
-  -------------------------------------------------------------------------------------------------------------------
 
 ## 用途分類統計
 
-  ------------------------------------------------------------------------
-  用途類別                                    標記數 標記
-  --------------------- ---------------------------- ---------------------
-  Lineage                                         12 CD45, CD4, CD335,
-  譜系／細胞族群鑑定                                 CD21, CD25, CD22,
-                                                     CD14, CD8a, Granzyme
-                                                     B, MHC-II, CD94, CD3
+| 用途類別 | 標記數 | 標記 |
+| --- | ---: | --- |
+| Lineage 譜系／細胞族群鑑定 | 12 | CD45, CD4, CD335, CD21, CD25, CD22, CD14, CD8a, Granzyme B, MHC-II, CD94, CD3 |
+| Differentiation 分化／記憶亞群 | 2 | Eomes, CD44 |
+| Activation 活化 | 1 | CD25 |
+| Function 功能 | 1 | Granzyme B |
+| Transcription factor 轉錄因子 | 2 | Eomes, FoxP3 |
+| Cell discrimination 細胞事件辨識 | 1 | Cell-ID Intercalator |
+| Viability 存活率 | 1 | Cell-ID Cisplatin |
 
-  Differentiation                                  2 Eomes, CD44
-  分化／記憶亞群                                     
+> 註：同一標記可能同時具有多種用途，因此各類別加總可能大於試劑總數。原論文 Purpose 為描述性文字，上表依實際功能分類；Table 2 的 Purpose 原文未改動。
 
-  Activation 活化                                  1 CD25
-
-  Function 功能                                    1 Granzyme B
-
-  Transcription factor                             2 Eomes, FoxP3
-  轉錄因子                                           
-
-  Cell discrimination                              1 Cell-ID Intercalator
-  細胞事件辨識                                       
-
-  Viability 存活率                                 1 Cell-ID Cisplatin
-  ------------------------------------------------------------------------
-
-> 註：同一標記可能同時具有多種用途，因此各類別加總可能大於試劑總數。原論文
-> Purpose 為描述性文字，上表依實際功能分類；Table 2 的 Purpose
-> 原文未改動。
 
 ## 面板設計重點
 
@@ -180,27 +110,11 @@ extracted_at: "2026-09-17"
 
 ## 資料缺漏與註記
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------
-  項目                    狀況                                         處理方式
-  ----------------------- -------------------------------------------- ------------------------------------------------------------------------------
-  RRID                    原論文 Table 2 未提供 RRID                   全部保留 N/A，不另行查找或推測
-
-  Cell-ID Intercalator /  原文標示 N/A                                 保留 N/A
-  Cell-ID Cisplatin 的                                                 
-  Clone                                                                
-
-  15-marker 與 17 項試劑  論文稱為 15-marker panel，但 Table 2 另列    `color_count: null`；`reagent_count: 17`，兩項細胞辨識／存活性試劑照原文保留
-                          Cell-ID Intercalator 與 Cell-ID              
-                          Cisplatin，因此共有 17 列                    
-
-  Target species          原文 Table 2 有 Target species               不自行增加欄位
-                          欄位，但作業指定 canonical panel             
-                          表格沒有此欄                                 
-
-  Purpose 分類            原文 Purpose                                 Table 2 原文逐字保留；僅在「用途分類統計」依實際功能歸類
-                          為描述性用途，而非規格對照表的固定類別名稱   
-
-  新增用途譯詞            Pan leukocytes、cell subset、cytotoxic       依上下文翻譯，並在此誠實註記
-                          activity、single nucleated cell/doublets     
-                          discrimination 等未直接列於規格用途對照表    
-  ---------------------------------------------------------------------------------------------------------------------------------------------------
+| 項目 | 狀況 | 處理方式 |
+| --- | --- | --- |
+| RRID | 原論文 Table 2 未提供 RRID | 全部保留 N/A，不另行查找或推測 |
+| Cell-ID Intercalator / Cell-ID Cisplatin 的 Clone | 原文標示 N/A | 保留 N/A |
+| 15-marker 與 17 項試劑 | 論文稱為 15-marker panel，但 Table 2 另列 Cell-ID Intercalator 與 Cell-ID Cisplatin，因此共有 17 列 | `color_count: null`；`reagent_count: 17`，兩項細胞辨識／存活性試劑照原文保留 |
+| Target species | 原文 Table 2 有 Target species 欄位，但作業指定 canonical panel 表格沒有此欄 | 不自行增加欄位 |
+| Purpose 分類 | 原文 Purpose 為描述性用途，而非規格對照表的固定類別名稱 | Table 2 原文逐字保留；僅在「用途分類統計」依實際功能歸類 |
+| 新增用途譯詞 | Pan leukocytes、cell subset、cytotoxic activity、single nucleated cell/doublets discrimination 等未直接列於規格用途對照表 | 依上下文翻譯，並在此誠實註記 |
