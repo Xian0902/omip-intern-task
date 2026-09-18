@@ -18,7 +18,7 @@
 <sup>3</sup> 美國加州 Fremont，Cytek Biosciences, Inc. Scientific Commercialization  
 <sup>4</sup> 荷蘭阿姆斯特丹 Vrije Universiteit Amsterdam，Amsterdam Institute for Immunology and Infectious Diseases、Cancer Center Amsterdam，Department of Molecular Cell Biology & Immunology
 
-**通訊作者：** Serena Rubina Baglio（s.baglio@amsterdamumc.nl）  
+**通訊作者：** [Serena Rubina Baglio (s.baglio@amsterdamumc.nl)](mailto:s.baglio@amsterdamumc.nl)  
 **收稿日期：** 2024 年 12 月 25 日 | **修訂日期：** 2026 年 4 月 26 日 | **接受日期：** 2026 年 5 月 4 日  
 
 **關鍵字：** 骨髓（bone marrow）｜高維度全光譜流式細胞術（high-dimensional spectral flow cytometry）｜免疫抑制（immune suppression）｜骨肉瘤（osteosarcoma）｜腫瘤微環境（tumor microenvironment）
@@ -109,13 +109,19 @@ T 細胞進一步區分為 CD8⁺ 與 CD4⁺ T 細胞。在 CD4⁺ 細胞族群�
 
 **4 | 與其他 OMIP 的相似性（Similarity to Other OMIPs）**
 
-本面板與 OMIP-032 [41] 有部分重疊；OMIP-032 著重於小鼠器官中的先天與適應性免疫細胞亞群，共同標記包括 Ly6G、Ly6C、CD8β、NKp46、MHCII、CD4、CD11c、CD49b、CD11b、TCRβ、CD206 與 CD45。
+本面板與 OMIP-032 [41] 有部分重疊；OMIP-032 主要針對小鼠器官中的先天與適應性免疫細胞亞群，共同標記包括 Ly6G、Ly6C、CD8β、NKp46、MHCII、CD4、CD11c、CD49b、CD11b、TCRβ、CD206 與 CD45。
 
-OMIP-054 [38] 用於小鼠腦、脾臟與骨髓中先天及適應性白血球的免疫表型分析，與本面板重疊的標記包括 CD45、TCRβ、CD4、FoxP3、CD8β、Ly6G、Ly6C、CD11b、CD11c、MHCII、CD206、CD69、CTLA-4、PD-1、PD-L1 與 TIM-3。OMIP-061 [42] 主要用於小鼠抗原呈現細胞，重疊標記較少，包括 CD45、CD3、Ly6G、F4/80、CD11b、CD11c 與 Ly6C。
+OMIP-054 [38] 用於小鼠腦、脾臟與骨髓中先天及適應性白血球的免疫表型分析，與本面板重疊的標記包括 CD45、TCRβ、CD4、FoxP3、CD8β、Ly6G、Ly6C、CD11b、CD11c、MHCII、CD206、CD69、CTLA-4、PD-1、PD-L1 與 TIM-3。
 
-此外，OMIP-076 [43]、OMIP-079 [44] 與 OMIP-088 [45] 亦有少部分標記重疊。上述部分 OMIP 使用 mass cytometry 或 conventional flow cytometry。OMIP-086 [46] 則是一套用於小鼠 innate lymphoid cell subsets 的 spectral flow cytometry panel，與本面板共同標記包括 CD45、NKp46、CD49b、CD4、CD11b、CD11c、CD19、F4/80 與 TCRβ。
+OMIP-061 [42] 主要用於小鼠抗原呈現細胞的表徵，重疊標記較少，包括 CD45、CD3、Ly6G、F4/80、CD11b、CD11c 與 Ly6C。
 
-其他部分重疊的小鼠 spectral flow cytometry panels 包括 OMIP-093 [47]、OMIP-095 [48]、OMIP-104 [49] 與 OMIP-105 [40]。整體而言，OMIP-120 將多個常見小鼠免疫細胞 lineage markers 與免疫檢查點、活化及耗竭相關標記整合於同一個 22-marker panel 中。
+OMIP-076 [43] 的重疊標記包括 PD-1、CD4、CD19、TCRβ、FoxP3、MHCII 與 CD45；OMIP-079 [44] 的重疊標記包括 FoxP3、CD4 與 CD8β；OMIP-088 [45] 的重疊標記包括 CD4、CD19、Ly6G、CD11b、F4/80 與 CD206。上述所有 OMIP 皆是針對 mass cytometry 或 conventional flow cytometry 所設計及最佳化。
+
+OMIP-086 [46] 是一套用於表徵小鼠 innate lymphoid cell subsets 的 spectral flow cytometry panel，與本面板重疊的標記包括 CD45、NKp46、CD49b、CD4、CD11b、CD11c、CD19、F4/80 與 TCRβ。
+
+其他部分重疊的小鼠 spectral flow cytometry panels 包括 OMIP-093 [47]，其重疊標記為 CD45、CD4、CD19、FoxP3、CD69、Ly6G、Ly6C、F4/80、CD11b、CD11c、MHCII、PD-1、TIM-3、CTLA-4 與 PD-L1；OMIP-095 [48] 的重疊標記為 CD45、CD4、Ly6G、Ly6C、F4/80、CD11b、CD11c、MHCII、PD-1、PD-L1、CD19、CD69 與 CD86。
+
+較近期發表的 OMIP-104 [49] 主要用於表徵肝臟及脂肪組織中的白血球，與本面板重疊的標記包括 CD45、CD4、CD19、CD206、Ly6G、Ly6C、F4/80、CD11b、CD11c 與 MHCII。OMIP-105 [40] 則用於辨識脾臟及大腸癌中的主要免疫細胞族群，重疊標記包括 Ly6G、Ly6C、CD8β、MHCII、CD4、CD11c、CD11b、TCRβ、CD45、CD19、CTLA-4、F4/80、FoxP3、PD-1、PD-L1 與 TIM-3。
 
 
 **圖1 | 圖 1 說明：** **(A)** 骨肉瘤組織的手動閘控策略（manual gating strategy）。排除 doublets、dead cells 與 CD45⁻ cells 後，將 T cells 定義為 TCRβ⁺CD11b⁻。由 T-cell gate 中辨識 CD4⁺ 與 CD8⁺ T cells。CD4⁺FoxP3⁺ T cells 由 CD4⁺ T-cell gate 中進行閘控，並評估 CTLA-4 的表現。由其餘 TCRβ⁻ gate 中，透過 NKp46 與 CD49b 作圖辨識 NK cells。由 NKp46⁻ cells 中，以 CD11c 與 MHCII 雙陽性辨識 DCs。再依 Ly6C 與 CD11b 的表現，將 DCs 進一步分類為 cDCs 1、cDCs 2、pDCs 與 moDCs。接著對其餘 CD11b⁺ cells 進行閘控；neutrophils 定義為 Ly6G⁺/Ly6Cⁱⁿᵗ，N2 neutrophil population 則以 CD206 陽性辨識。之後將其餘 CD11b⁺ cells 透過 Ly6C 與 F4/80 作圖，區分為 macrophages 以及 Ly6C high 與 low monocytes；再由 F4/80⁺Ly6C⁻ population 中辨識 M1（MHCII⁺）與 M2（CD206⁺）macrophages。B cells 則由 CD11b⁻ cells 中排除 Ly6C⁺F4/80⁺ cells 後，以 CD19 陽性辨識，並進一步分析 MHCII 與 PD-L1 的表現。**(B)** 顯示 osteosarcoma tissue、bone marrow 與 spleen 中代表性細胞族群之 immune checkpoint 與 activation marker 表現的 histogram overlays。彩色圖可於 Wiley Online Library 查看。
@@ -505,25 +511,6 @@ Alberta G.A. Paul 目前任職於 Cytek Biosciences。其他作者聲明無利�
 
 其他補充資訊可於線上 Supporting Information section 查閱。Data S1：Cytometry Part A Author checklist：符合 MIFlowCyt 規範的項目。
 
-### 詳細摘要
-
-#### 1. 研究背景與目的
-
-骨肉瘤等發生在骨骼或骨髓中的腫瘤，對許多治療方式的反應仍然有限，其中也包含免疫治療。Binnewies 等人的研究指出，腫瘤免疫微環境（tumor immune microenvironment, TIME）具有高度複雜性，不同免疫細胞的組成與狀態會影響腫瘤發展及治療反應。因此，要了解骨肉瘤如何改變周圍的免疫環境，就需要能同時觀察多種免疫細胞及其功能狀態的方法。本研究的目的，是建立一套 22-marker spectral flow cytometry panel，用來辨識主要免疫細胞族群，同時觀察與細胞活化、耗竭及免疫檢查點相關的標記。研究主要使用 BALB/c 小鼠的骨髓、脾臟及脛骨骨肉瘤組織進行測試與最佳化，希望建立一套適合骨肉瘤研究且具有延伸性的免疫分析方法。
-
-#### 2. 方法
-
-本研究使用 4-laser Cytek Aurora 進行 spectral flow cytometry 分析，使用的雷射為 UV 355 nm、Violet 405 nm、Blue 488 nm 及 Red 640 nm。整套面板共有 22 個 markers，可辨識 T cells、B cells、NK cells、DCs、monocytes、macrophages、neutrophils 等主要免疫細胞，另外也加入 CD69、PD-1、PD-L1、CTLA-4、TIM-3 等功能相關標記。Ferrer-Font 等人的研究指出，隨著 full-spectrum flow cytometry panel 的規模與複雜度增加，除了最初的 panel design 外，後續的 antibody titration、reference controls、unmixing 與 marker resolution 等最佳化步驟也相當重要。本研究因此同樣針對抗原表現量、螢光染料亮度、標記共同表現情形及不同螢光染料之間的光譜干擾進行調整，並透過 antibody titration、FMO controls、reference control optimization 及 autofluorescence analysis 確認面板表現。此外，研究也比較不同的組織解離方式，以確認處理流程是否會影響細胞表面標記的偵測結果。
-
-#### 3. 主要發現
-
-完成最佳化後，這套 22-marker panel 能夠區分 CD4⁺ T cells、CD8⁺ T cells、B cells、NK cells、DCs、monocytes、macrophages 與 neutrophils 等主要免疫細胞族群。面板中各 fluorochrome pairs 的 cosine similarity 都低於 0.89，condition number 為 8.9；在 462 組 fluorochrome combinations 中，只有 13 組的 spillover spread value 大於 4，而且全部低於 8，顯示整體光譜干擾受到良好控制。最佳化過程中，作者將 CD8α/BV570 改為 CD8β/BV480，使 CD8⁺ T cells 的辨識效果改善；FoxP3 antibody clone 的調整也讓訊號更加清楚。第三版面板另外加入 F4/80、TIM-3 與 CTLA-4，使面板從原本的 19 colors 增加到最後的 22 colors。研究也發現，不同的組織解離方式會影響部分標記的偵測，例如 Protocol B 會降低 CD19、CD4 及 NKp46 的表現或解析度，因此最後選擇 Protocol A 作為腫瘤組織的處理方式。
-
-#### 4. 應用價值
-
-這套 OMIP-120 面板的主要價值，是可以在一次實驗中同時觀察多種主要免疫細胞，以及與細胞活化、耗竭和免疫檢查點相關的標記，進而取得較完整的腫瘤免疫環境資訊。Longhini 等人建立的小鼠 spectral flow cytometry backbone panel 顯示，保留穩定的主要免疫細胞標記，再依研究需求加入其他標記，是兼顧一致性與客製化的一種方式。OMIP-120 同樣具有這類延伸性，雖然目前主要針對小鼠骨肉瘤、骨髓及脾臟進行測試與最佳化，但並不侷限於骨肉瘤研究。未來若應用於其他實體腫瘤或血液惡性腫瘤，也可以依實驗目的調整部分 markers，作為後續高維度免疫表型分析的基礎。
-
-
 **原論文參考文獻（References）**
 
 1. M. Binnewies, E. W. Roberts, K. Kersten, et al., “Understanding the Tumor Immune Microenvironment (TIME) for Effective Therapy,” _Nature Medicine_ 24, no. 5 (2018): 541–550, https:// doi. org/ 10. 1038/ s4159 1- 018- 0014- x. 
@@ -660,11 +647,24 @@ _Cytometry Part A,_ 2026
 
 61. C. M. Doyle, N. L. Fewings, G. Ctercteko, S. N. Byrne, A. N. Harman, and K. M. Bertram, “OMIP 082: A 25- Color Phenotyping to Define Human Innate Lymphoid Cells, Natural Killer Cells, MucosalAssociated Invariant T Cells, and γδ T Cells From Freshly Isolated Human Intestinal Tissue,” _Cytometry. Part A_ 101, no. 3 (2022): 196–202, https:// doi. org/ 10. 1002/ cyto.a. 24529 . 
 
+### 詳細摘要
+
+#### 1. 研究背景與目的
+
+骨肉瘤等發生在骨骼或骨髓中的腫瘤，對許多治療方式的反應仍然有限，其中也包含免疫治療。Binnewies 等人的研究指出，腫瘤免疫微環境（tumor immune microenvironment, TIME）具有高度複雜性，不同免疫細胞的組成與狀態會影響腫瘤發展及治療反應。因此，要了解骨肉瘤如何改變周圍的免疫環境，就需要能同時觀察多種免疫細胞及其功能狀態的方法。本研究的目的，是建立一套 22-marker spectral flow cytometry panel，用來辨識主要免疫細胞族群，同時觀察與細胞活化、耗竭及免疫檢查點相關的標記。研究主要使用 BALB/c 小鼠的骨髓、脾臟及脛骨骨肉瘤組織進行測試與最佳化，希望建立一套適合骨肉瘤研究且具有延伸性的免疫分析方法。
+
+#### 2. 方法
+
+本研究使用 4-laser Cytek Aurora 進行 spectral flow cytometry 分析，使用的雷射為 UV 355 nm、Violet 405 nm、Blue 488 nm 及 Red 640 nm。整套面板共有 22 個 markers，可辨識 T cells、B cells、NK cells、DCs、monocytes、macrophages、neutrophils 等主要免疫細胞，另外也加入 CD69、PD-1、PD-L1、CTLA-4、TIM-3 等功能相關標記。Ferrer-Font 等人的研究指出，隨著 full-spectrum flow cytometry panel 的規模與複雜度增加，除了最初的 panel design 外，後續的 antibody titration、reference controls、unmixing 與 marker resolution 等最佳化步驟也相當重要。本研究因此同樣針對抗原表現量、螢光染料亮度、標記共同表現情形及不同螢光染料之間的光譜干擾進行調整，並透過 antibody titration、FMO controls、reference control optimization 及 autofluorescence analysis 確認面板表現。此外，研究也比較不同的組織解離方式，以確認處理流程是否會影響細胞表面標記的偵測結果。
+
+#### 3. 主要發現
+
+完成最佳化後，這套 22-marker panel 能夠區分 CD4⁺ T cells、CD8⁺ T cells、B cells、NK cells、DCs、monocytes、macrophages 與 neutrophils 等主要免疫細胞族群。面板中各 fluorochrome pairs 的 cosine similarity 都低於 0.89，condition number 為 8.9；在 462 組 fluorochrome combinations 中，只有 13 組的 spillover spread value 大於 4，而且全部低於 8，顯示整體光譜干擾受到良好控制。最佳化過程中，作者將 CD8α/BV570 改為 CD8β/BV480，使 CD8⁺ T cells 的辨識效果改善；FoxP3 antibody clone 的調整也讓訊號更加清楚。第三版面板另外加入 F4/80、TIM-3 與 CTLA-4，使面板從原本的 19 colors 增加到最後的 22 colors。研究也發現，不同的組織解離方式會影響部分標記的偵測，例如 Protocol B 會降低 CD19、CD4 及 NKp46 的表現或解析度，因此最後選擇 Protocol A 作為腫瘤組織的處理方式。
+
+#### 4. 應用價值
+
+這套 OMIP-120 面板的主要價值，是可以在一次實驗中同時觀察多種主要免疫細胞，以及與細胞活化、耗竭和免疫檢查點相關的標記，進而取得較完整的腫瘤免疫環境資訊。Longhini 等人建立的小鼠 spectral flow cytometry backbone panel 顯示，保留穩定的主要免疫細胞標記，再依研究需求加入其他標記，是兼顧一致性與客製化的一種方式。OMIP-120 同樣具有這類延伸性，雖然目前主要針對小鼠骨肉瘤、骨髓及脾臟進行測試與最佳化，但並不侷限於骨肉瘤研究。未來若應用於其他實體腫瘤或血液惡性腫瘤，也可以依實驗目的調整部分 markers，作為後續高維度免疫表型分析的基礎。
+
 
 ## 參考資料
 
-[1] M. Binnewies, E. W. Roberts, K. Kersten, et al., “Understanding the Tumor Immune Microenvironment (TIME) for Effective Therapy,” _Nature Medicine_ 24, no. 5 (2018): 541–550, https:// doi. org/ 10. 1038/ s4159 1- 018- 0014- x.
-
-[39] A. L. F. Longhini, I. Fernández- Maestre, M. C. Kennedy, et al., “Development of a Customizable Mouse Backbone Spectral Flow Cytometry Panel to Delineate Immune Cell Populations in Normal and Tumor Tissues,” _Frontiers in Immunology_ 15 (2024): 1374943, https:// doi. org/ 10. 3389/ fimmu. 2024. 1374943.
-
-[56] L. Ferrer- Font, S. J. Small, B. Lewer, et al., “Panel Optimization for High- Dimensional Immunophenotyping Assays Using Full- Spectrum Flow Cytometry,” _Current Protocols_ 1, no. 9 (2021): e222, https:// doi. org/ 10. 1002/ cpz1. 222. 

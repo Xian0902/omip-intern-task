@@ -2,8 +2,8 @@
 omip: "120"
 doi: "10.1002/cyto.a.70034"
 url: "https://onlinelibrary.wiley.com/doi/full/10.1002/cyto.a.70034"
-title_en: "A 22-Marker Spectral Flow Cytometry Panel for the Characterization of Major Immune Populations in Murine Bone Marrow and Osteosarcoma Tissue"
-title_zh: "用於表徵小鼠骨髓與骨肉瘤組織主要免疫細胞族群的 22 標記全光譜流式細胞術面板"
+title_en: "OMIP-120: A 22-Marker Spectral Flow Cytometry Panel for the Characterization of Major Immune Populations in Murine Bone Marrow and Osteosarcoma Tissue"
+title_zh: "OMIP-120：用於表徵小鼠骨髓與骨肉瘤組織主要免疫細胞族群的 22 標記全光譜流式細胞術面板"
 first_author: "Simone Foderaro"
 year: 2026
 journal: "Cytometry Part A"
@@ -15,12 +15,14 @@ color_count: 22
 reagent_count: 22
 species: "Mouse"
 cell_types: "Bone marrow and osteosarcoma tissue"
-source_pages: [3, 4]
+source_pages: [2, 3]
 extracted_by: "pymupdf4llm + 人工校對"
 extracted_at: "2026-09-16"
 ---
 
 # OMIP-120 抗體面板
+
+> 本面板資料整理自 OMIP-120 原論文 Table 1 與 Table 2；試劑順序依原文保留，原文未提供之欄位以 N/A 標示，不另行查找或臆測。
 
 ## 表 1｜摘要表（Summary table）
 
@@ -85,6 +87,7 @@ extracted_at: "2026-09-16"
 | Immune checkpoint 免疫檢查點 | 1 | CTLA-4 |
 | exhaustion marker 耗竭標記 | 1 | CTLA-4 |
 
+> 註：Purpose（原文）依 `;` 與 `,` 拆分後計數；同一標記可能同時具有多個用途，因此各用途類別的標記數加總為 28，會大於試劑總數 `reagent_count: 22`。此差異為多重用途重複計數所致，並非試劑數量不一致。
 
 ## 面板設計重點
 
@@ -99,7 +102,7 @@ extracted_at: "2026-09-16"
 * **OMIP-032：** 與本面板重疊 Ly6G、Ly6C、CD8β、NKp46、MHCII、CD4、CD11c、CD49b、CD11b、TCRβ、CD206、CD45。
 * **OMIP-054：** 與本面板重疊 CD45、TCRβ、CD4、FoxP3、CD8β、Ly6G、Ly6C、CD11b、CD11c、MHCII、CD206、CD69、CTLA-4、PD-1、PD-L1、TIM-3。
 * **OMIP-061：** 與本面板重疊 CD45、CD3、Ly6G、F4/80、CD11b、CD11c、Ly6C。
-* **OMIP-076、OMIP-079、OMIP-088：** 與本面板具有少部分標記重疊；原文指出上述面板採 mass cytometry 或 conventional flow cytometry。
+* **OMIP-076、OMIP-079、OMIP-088：** 與本面板具有少部分標記重疊。原文指出上述所有 OMIP（OMIP-032、OMIP-054、OMIP-061、OMIP-076、OMIP-079、OMIP-088）皆針對 mass cytometry 或 conventional flow cytometry 設計及最佳化。
 * **OMIP-086、OMIP-093、OMIP-095、OMIP-104、OMIP-105：** 皆為與本面板部分重疊的 murine spectral flow cytometry panels；各面板著重的組織與免疫細胞族群不同。
 
 ## 資料缺漏與註記

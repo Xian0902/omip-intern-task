@@ -9,7 +9,7 @@
 **[開放存取](https://doi.org/10.1002/cyto.a.70040)**
 **OMIP**
 
-# **OMIP-121：以質譜流式細胞術分析犬類周邊白血球的免疫表型**
+# **OMIP-121：以質譜流式細胞術進行犬類周邊白血球免疫表型分析**
 
 **Huyen Thuc Tran Luong<sup>1,2</sup> | Dominique Revets<sup>1</sup> | Sofie Vercammen<sup>3</sup> | Ario de Marco<sup>4</sup> | Hilde de Rooster<sup>3</sup> | Antonio Cosma<sup>1</sup>**
 
@@ -18,7 +18,7 @@
 <sup>3</sup> 小動物學系 Small Animal Department、獸醫學院 Faculty of Veterinary Medicine、根特大學 Ghent University、Ghent、比利時
 <sup>4</sup> 環境與生命科學實驗室 Laboratory for Environmental and Life Sciences、新戈里察大學 University of Nova Gorica、Nova Gorica、斯洛維尼亞
 
-**通訊作者：** Antonio Cosma (antonio.cosma@lih.lu)
+**通訊作者：** [Antonio Cosma (antonio.cosma@lih.lu)](mailto:antonio.cosma@lih.lu)
 **收稿日期：** 2025 年 9 月 5 日 | **修訂日期：** 2026 年 5 月 13 日 | **接受日期：** 2026 年 5 月 26 日
 
 **摘要**
@@ -431,32 +431,9 @@ Dominique Revets：methodology、writing – review and editing。Antonio Cosma�
 
 支持本研究結果的資料已公開存放於 FlowRepository，reference number：FR-FCM-Z9FA。
 
-**原論文參考文獻（References）**
-
-原論文共列 47 筆參考文獻 [1]–[47]；為避免改動作者、篇名、期刊、卷期與頁碼等 bibliographic information，本區保留原始論文 References 的英文書目資訊，引用編號於正文中維持原樣。
-
 **Supporting Information**
 
 其他 supporting information 可於線上 Supporting Information section 取得。Data S1：`cytoa70040-sup-0001-Supinfo.doc`。
-
-### 詳細摘要
-
-#### 1. 研究背景與目的
-
-犬類在生理與免疫反應上和人類具有不少相似之處，因此常被用於藥物開發、癌症免疫研究與臨床前安全性評估。不過，Chow 等人比較犬與人類免疫反應後也指出，兩者雖然整體免疫活化反應相近，但在 T 細胞反應強度、IFN-γ 產生及部分免疫路徑上仍存在差異，因此不能直接把犬的免疫結果完全套用到人類。另一方面，過去犬類免疫表型研究可使用的專一性抗體與高維度分析工具相對有限，也增加了完整分析不同白血球族群的困難。本研究因此建立一套 15-marker mass cytometry panel，用來分析冷凍保存犬 PBMCs 中的主要白血球族群。研究希望在辨識主要免疫細胞的同時，也保留後續擴充 markers 的空間，使這套面板能依不同研究需求繼續調整。
-
-#### 2. 方法
-
-研究以 CyTOF XT mass cytometer 進行主要的 panel optimization 與 antibody titration，最後再使用 Lunarion mass cytometer 測試跨儀器的相容性。Iyer 等人整理 mass cytometry 的實驗流程時指出，這項技術能在有限樣本中同時分析大量細胞標記，但 panel design、antibody conjugation、sample staining、acquisition 與後續資料處理都會影響結果，因此需要完整的最佳化流程。本研究的面板包含 15 個主要 antibody markers，另外搭配 <sup>191</sup>Ir/<sup>193</sup>Ir Cell-ID Intercalator 與 <sup>195</sup>Pt Cisplatin 進行 single-cell 與 live/dead discrimination。研究利用 CD3、CD4、CD8a、CD21、CD22、CD94、Granzyme B、CD14、MHC-II 等 markers 辨識主要免疫細胞，並以 CD25/FOXP3 及 CD44/Eomes 進一步分析 T cell subsets。PBMCs 經分離與冷凍保存後，再依序進行解凍、細胞存活率染色、surface staining、intracellular staining、mass cytometry acquisition 與 FlowJo analysis。
-
-#### 3. 主要發現
-
-最終面板可辨識 B cells、CD4⁺ helper T cells、CD8⁺ cytotoxic T cells、Tregs、NKT cells、NK cells、DCs、CD4⁺ monocytes、classical monocytes 及 neutrophils 等主要犬免疫細胞。T cells 還能利用 CD44 與 Eomes 區分 naïve、central memory 與 effector memory subsets，因此除了觀察主要細胞族群，也能進一步分析部分 T 細胞的分化狀態。過去 OMIP-065 已使用 14-color flow cytometry panel 分析犬 PBMCs 的免疫細胞組成與 T-cell activity，並強調冷凍 PBMCs 批次分析可降低不同實驗批次間的差異；OMIP-121 則進一步利用 mass cytometry 擴大可同時分析的標記與細胞類型。研究最佳化過程也顯示，部分原先預計使用的 human antibodies 在犬細胞上會出現無染色、訊號過弱或 specificity 不佳等情況，因此最後未納入面板。比較 CyTOF XT 與 Lunarion 後，主要 leukocyte populations 在兩台儀器上皆可辨識，但 FoxP3、Granzyme B 與 Eomes 仍有較高 background staining，顯示這些標記仍有進一步最佳化空間。
-
-#### 4. 應用價值
-
-OMIP-121 提供一套以 mass cytometry 分析犬 PBMCs 的高維度免疫表型面板，可在一次實驗中觀察多種主要免疫細胞及部分 T cell differentiation states。相較於 OMIP-065 使用傳統多色 flow cytometry 的方式，本研究利用 mass cytometry 可使用較多 metal channels 的特性，讓面板在保留現有標記的同時，仍具有加入其他 markers 的擴充空間。Chow 等人的研究顯示犬與人類的免疫反應具有廣泛相似性，但也存在不能忽略的功能差異，因此這類犬免疫表型資料的價值，不是直接取代人類資料，而是提供轉譯研究與跨物種比較時更完整的參考。對藥物開發、臨床前安全性研究、犬疾病免疫監測及比較腫瘤學而言，這套面板都具有後續應用與調整的可能性。整體而言，OMIP-121 可作為犬類高維度免疫分析的基礎，再依不同疾病或研究目的加入新的標記。
-
 **原論文參考文獻（References）**
 
 [1] L. Chow, W. Wheat, D. Ramirez, R. Impastato, and S. Dow, “Direct Comparison of Canine and Human Immune Responses Using Transcriptomic and Functional Analyses,” Scientific Reports 14, no. 1 (2024): 2207.
@@ -553,11 +530,23 @@ OMIP-121 提供一套以 mass cytometry 分析犬 PBMCs 的高維度免疫表型
 
 [47] J. S. Almeida, L. M. Sousa, P. Couceiro, et al., “Peripheral Immune Profiling of Soft Tissue Sarcoma: Perspectives for Disease Monitoring,” Frontiers in Immunology 15 (2024): 1391840.
 
+### 詳細摘要
+
+#### 1. 研究背景與目的
+
+犬類在生理與免疫反應上和人類具有不少相似之處，因此常被用於藥物開發、癌症免疫研究與臨床前安全性評估。不過，Chow 等人比較犬與人類免疫反應後也指出，兩者雖然整體免疫活化反應相近，但在 T 細胞反應強度、IFN-γ 產生及部分免疫路徑上仍存在差異，因此不能直接把犬的免疫結果完全套用到人類。另一方面，過去犬類免疫表型研究可使用的專一性抗體與高維度分析工具相對有限，也增加了完整分析不同白血球族群的困難。本研究因此建立一套 15-marker mass cytometry panel，用來分析冷凍保存犬 PBMCs 中的主要白血球族群。研究希望在辨識主要免疫細胞的同時，也保留後續擴充 markers 的空間，使這套面板能依不同研究需求繼續調整。
+
+#### 2. 方法
+
+研究以 CyTOF XT mass cytometer 進行主要的 panel optimization 與 antibody titration，最後再使用 Lunarion mass cytometer 測試跨儀器的相容性。Iyer 等人整理 mass cytometry 的實驗流程時指出，這項技術能在有限樣本中同時分析大量細胞標記，但 panel design、antibody conjugation、sample staining、acquisition 與後續資料處理都會影響結果，因此需要完整的最佳化流程。本研究的面板包含 15 個主要 antibody markers，另外搭配 <sup>191</sup>Ir/<sup>193</sup>Ir Cell-ID Intercalator 與 <sup>195</sup>Pt Cisplatin 進行 single-cell 與 live/dead discrimination。研究利用 CD3、CD4、CD8a、CD21、CD22、CD94、Granzyme B、CD14、MHC-II 等 markers 辨識主要免疫細胞，並以 CD25/FOXP3 及 CD44/Eomes 進一步分析 T cell subsets。PBMCs 經分離與冷凍保存後，再依序進行解凍、細胞存活率染色、surface staining、intracellular staining、mass cytometry acquisition 與 FlowJo analysis。
+
+#### 3. 主要發現
+
+最終面板可辨識 B cells、CD4⁺ helper T cells、CD8⁺ cytotoxic T cells、Tregs、NKT cells、NK cells、DCs、CD4⁺ monocytes、classical monocytes 及 neutrophils 等主要犬免疫細胞。T cells 還能利用 CD44 與 Eomes 區分 naïve、central memory 與 effector memory subsets，因此除了觀察主要細胞族群，也能進一步分析部分 T 細胞的分化狀態。過去 OMIP-065 已使用 14-color flow cytometry panel 分析犬 PBMCs 的免疫細胞組成與 T-cell activity，並強調冷凍 PBMCs 批次分析可降低不同實驗批次間的差異；OMIP-121 則進一步利用 mass cytometry 擴大可同時分析的標記與細胞類型。研究最佳化過程也顯示，部分原先預計使用的 human antibodies 在犬細胞上會出現無染色、訊號過弱或 specificity 不佳等情況，因此最後未納入面板。比較 CyTOF XT 與 Lunarion 後，主要 leukocyte populations 在兩台儀器上皆可辨識，但 FoxP3、Granzyme B 與 Eomes 仍有較高 background staining，顯示這些標記仍有進一步最佳化空間。
+
+#### 4. 應用價值
+
+OMIP-121 提供一套以 mass cytometry 分析犬 PBMCs 的高維度免疫表型面板，可在一次實驗中觀察多種主要免疫細胞及部分 T cell differentiation states。相較於 OMIP-065 使用傳統多色 flow cytometry 的方式，本研究利用 mass cytometry 可使用較多 metal channels 的特性，讓面板在保留現有標記的同時，仍具有加入其他 markers 的擴充空間。Chow 等人的研究顯示犬與人類的免疫反應具有廣泛相似性，但也存在不能忽略的功能差異，因此這類犬免疫表型資料的價值，不是直接取代人類資料，而是提供轉譯研究與跨物種比較時更完整的參考。對藥物開發、臨床前安全性研究、犬疾病免疫監測及比較腫瘤學而言，這套面板都具有後續應用與調整的可能性。整體而言，OMIP-121 可作為犬類高維度免疫分析的基礎，再依不同疾病或研究目的加入新的標記。
+
 
 ## 參考資料
-
-[1] L. Chow, W. Wheat, D. Ramirez, R. Impastato, and S. Dow, “Direct Comparison of Canine and Human Immune Responses Using Transcriptomic and Functional Analyses,” Scientific Reports 14, no. 1 (2024): 2207.
-
-[2] A. Iyer, A. A. J. Hamers, and A. B. Pillai, “CyTOF for the Masses,” Frontiers in Immunology 13 (2022): 815828.
-
-[3] S. Pantelyushin, E. Ranninger, R. Bettschart-Wolfensberger, and J. vom Berg, “OMIP-065: Dog Immunophenotyping and T-Cell Activity Evaluation With a 14-Color Panel,” Cytometry, Part A 97, no. 10 (2020): 1024–1027.
