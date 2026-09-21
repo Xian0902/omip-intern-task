@@ -49,7 +49,7 @@
 
 **3 | 結果（Results）**
 
-本研究使用的細胞分離自 BALB/c 小鼠的脾臟、骨髓及脛骨骨肉瘤。資料以具有 UV-V-B-R 雷射配置的 4 Laser Aurora 取得。圖1A呈現骨肉瘤組織的代表性 gating strategy，而圖14則呈現此面板應用於脾臟（A）與骨髓（B）的 gating strategy。
+本研究使用的細胞分離自 BALB/c 小鼠的脾臟、骨髓及脛骨骨肉瘤。資料以具有 UV-V-B-R 雷射配置的 4 Laser Aurora 取得。圖1A呈現骨肉瘤組織的代表性圈選策略（gating strategy），而圖14則呈現此面板應用於脾臟（A）與骨髓（B）的 gating strategy。
 
 首先利用 FSC 與 SSC 的 area 與 height 訊號選取單細胞（singlets），再以 Live/Dead Blue 排除死細胞。白血球以 CD45 表現進行辨識。接著將 TCRβ 與 CD11b 作圖，將 TCRβ⁺ CD11b⁻ 細胞定義為 T 細胞。值得注意的是，此圖亦可辨識 TCRβ⁺ CD11b⁺ 細胞；過去研究指出這類細胞可能為具有較強吞噬能力的巨噬細胞 [10]。
 
@@ -218,7 +218,7 @@ OMIP-086 [46] 是一套用於表徵小鼠 innate lymphoid cell subsets 的 spect
 
 本面板針對 4 laser Cytek Aurora（Cytek Biosciences, Fremont, California）設計並最佳化，雷射配置為 Ultra Violet 355 nm、Violet 405 nm、Blue 488 nm 與 Red 640 nm。儀器 gain settings 採用製造商建議的 CytekAssaySettings [50]。雷射與偵測器配置列於表3。
 
-原則上，此面板可應用於具有相同或更高硬體配置的儀器。不過，若轉移至更高配置系統，例如 5 laser Aurora，仍需要重新測試，並可能因 spectral signatures 與 fluorochrome brightness 的差異而進行調整。
+原則上，此面板可應用於具有相同或更高硬體配置的儀器。不過，若轉移至更高配置系統，例如 5 laser Aurora，仍需要重新測試，並可能因光譜特徵（spectral signatures）與螢光染料亮度（fluorochrome brightness）的差異而進行調整。
 
 表4列出本面板使用的試劑及其滴定濃度（titers）；表5顯示各 fluorochrome 在不同雷射與 emission wavelengths 上的分布。
 
@@ -289,20 +289,20 @@ OMIP-086 [46] 是一套用於表徵小鼠 innate lymphoid cell subsets 的 spect
 **7.3 | 染色（Staining）**
 
 1. 標記 flow cytometry round-bottom tubes，分為 unstained、single stained（SS）controls 與 multicolor（MC）tubes。  
-2. 每個 MC tube 加入 1–2 × 10⁶ cells；每個 SS tube 在 1 mL PBS 中加入約 0.5–1 × 10⁶ cells。若預期分析 rare events，SS tube 使用 1 × 10⁶ cells。Unstained controls 加入 3–5 × 10⁵ cells。7 個 markers 使用 beads 作為 reference controls：CD19/Spark Blue 550、CD49b/FITC、CD86/BUV805、CD206/APC、CTLA-4/BV605、NKp46/BV650、PD-1/BV421；其餘 15 個 markers 使用 cells 作為 reference controls。  
+2. 每個 MC tube 加入 1–2 × 10⁶ cells；每個 SS tube 在 1 mL PBS 中加入 0.5–1 × 10⁶ cells。若預期分析 rare events，SS tube 需使用 1 × 10⁶ cells。Unstained controls 加入 3–5 × 10⁵ cells。7 個標記（markers）使用微球（beads）作為參考對照（reference controls）：CD19/Spark Blue 550、CD49b/FITC、CD86/BUV805、CD206/APC、CTLA-4/BV605、NKp46/BV650、PD-1/BV421。15 個 markers 使用 cells 作為 reference controls：CD45/Alexa Fluor 700、CD11b/PerCP-Cy5.5、MHCII/BV711、Ly6C/Pacific Blue、CD4/BV750、TCRβ/PE-Cy7、PD-L1/PE-Dazzle 594、Ly6G/BUV563、CD11c/BV780、CD8β/BV480、CD69/PE-Cy5、F4/80/APC-Fire 810、TIM-3/APC-eFluor780、FoxP3/PE、LIVE DEAD Blue。  
 3. Viability SS tube 中的 cells 在 PBS 中以 65°C heat shock 10 min，再分成兩管。  
 4. 所有 tubes 以 400 g 離心 5 min。  
 5. 以倒置方式小心去除上清液，tube 中保留約 90 μL（±2.5 μL）PBS。  
-6. 將 3.5 μL viability dye dilution 加入其中一管 Viability SS tube 與 MC tubes，vortex 後於室溫避光 incubate 15 min；另一管未染色 Viability SS tube 作為 autofluorescence-matched unstained control。  
+6. 將 3.5 μL viability dye dilution 加入其中一管 Viability SS tube 與 MC tubes，vortex 後於室溫避光 incubate 15 min；另一管未染色 Viability SS tube 作為自體螢光（autofluorescence）配對的未染色對照。  
 7. 15 min 後，加入 2 mL flow cytometry staining buffer 清洗 MC 與 SS viability tubes。  
 8. 重複離心及去除上清液步驟。  
 9. SS viability tubes 加入 100 μL wash buffer 並 vortex，在 4°C 避光保存至 acquisition。  
 10. MC 與其餘 SS cell tubes 各加入 5 μL True-Stain Monocyte Blocker 並 vortex。  
 11. 各加入 5 μL Fc block 並 vortex。  
 12. 使用 Brilliant Stain Buffer Plus 製備 surface markers antibody master mix，每管總體積 50 μL。  
-13. MC tubes 各加入 50 μL antibody mix 並 vortex，此時每管總體積為 150 μL。  
+13. MC tubes 各加入 50 μL antibody mix 並 vortex。此時每個 MC tube 的總體積為 150 μL（90 μL cell suspension、5 μL Fc block、5 μL Monocyte Blocker 與 50 μL antibodies master mix）。  
 14. 室溫避光 incubate 30 min。  
-15. 同步染色 SS controls。Cell-based SS tubes 加入與 MC tube 相同量的個別 antibody，再以 flow cytometry staining buffer 補至 150 μL。Bead controls 則依流程清洗 beads、加入個別 antibodies，補至 150 μL，vortex 後室溫避光 incubate 30 min。  
+15. 同步染色 SS controls。Cell-based SS tubes（CD45/Alexa Fluor 700、CD11b/PerCP-Cy5.5、MHCII/BV711、Ly6C/Pacific Blue、CD4/BV750、TCRβ/PE-Cy7、PD-L1/PE-Dazzle 594、Ly6G/BUV563、CD11c/BV780、CD8β/BV480、CD69/PE-Cy5、F4/80/APC-Fire 810、TIM-3/APC-eFluor780、FoxP3/PE）加入與 MC tube 相同量的個別 antibody，再以 flow cytometry staining buffer 補至最終體積 150 μL。Compensation beads 則先以 inversion 與 pulse-vortexing 混合，每管（CD19/Spark Blue 550、CD49b/FITC、CD86/BUV805、CD206/APC、CTLA-4/BV605、NKp46/BV650、PD-1/BV421）加入 1 drop beads，再加入 2 mL flow cytometry staining buffer，以 500 g 離心 5 min，去除上清液後 vortex。接著加入與 MC tube 相同量的個別 antibody，以 flow cytometry staining buffer 補至最終體積 150 μL，vortex 後於室溫避光 incubate 30 min。  
 16. 加入 3 mL flow cytometry staining buffer，以 500 g 離心 5 min，共清洗三次。  
 17. 小心去除上清液。  
 18. 將 FoxP3-Fixation/Permeabilization concentrate 以 Perm Diluent 1:4 稀釋，每管加入 0.5 mL。  
@@ -321,7 +321,7 @@ OMIP-086 [46] 是一套用於表徵小鼠 innate lymphoid cell subsets 的 spect
 31. 於 4°C 避光保存至 acquisition；樣本最好於 24 h 內完成資料取得。
 
 
-**圖3 | 圖 3 說明：** Panel cosine similarity matrix。影像由 SpectroFlo software 產生；軟體產生的 complexity index 對應 condition number。彩色圖可於 Wiley Online Library 查看。
+**圖3 | 圖 3 說明：** 面板餘弦相似度矩陣（panel cosine similarity matrix）。影像由 SpectroFlo software 產生；軟體產生的複雜度指數（complexity index）對應條件數（condition number）。彩色圖可於 Wiley Online Library 查看。
 
 **圖4 | 圖 4 說明：** 本面板 fluorochromes 的 Spillover Spread Matrix（SSM）。列（rows）代表 primary fluorochromes，欄（columns）代表 secondary fluorochromes。彩色圖可於 Wiley Online Library 查看。
 
@@ -329,13 +329,13 @@ OMIP-086 [46] 是一套用於表徵小鼠 innate lymphoid cell subsets 的 spect
 
 **8.1 | 面板設計（Panel Design）**
 
-本研究依據既有 panel design guidelines [50, 52–54] 分配 fluorochromes，主要原則包括：降低不同 fluorochrome emission spectra 之間的整體相似度；優先將 bright fluorochromes 配給低表現 markers，將 dim fluorochromes 配給高表現 markers；對可能共同表現的 markers 使用 spectral overlap 較低的 fluorochromes；並限制 Spillover Spread。
+本研究依據既有 panel design guidelines [50, 52–54] 分配 fluorochromes，主要原則包括：降低不同螢光染料放射光譜（fluorochrome emission spectra）之間的整體相似度；優先將 bright fluorochromes 配給低表現 markers，將 dim fluorochromes 配給高表現 markers；對可能共同表現的 markers 使用光譜重疊（spectral overlap）較低的 fluorochromes；並限制 Spillover Spread。
 
 此外，autofluorescence（AF）通常在 violet 與 ultraviolet channels 更明顯。為降低 AF 造成解析度下降或 false positives 的風險，本研究將 lymphoid cell markers 優先配置於這些 channels，myeloid markers 則盡量搭配主要在 red channels 發射的 fluorochromes。圖2呈現最終 fluorochrome 組合。
 
 研究團隊以 cosine similarity index 評估 fluorochrome emission spectra 的相似性；此指標介於 0（完全不相似）至 1（完全相同）。最終面板中所有 fluorochrome pairs 的 cosine similarity 均低於 0.89，condition number 為 8.9，表示面板內 fluorochromes 的相互干擾程度較低（圖3）。
 
-圖4為 Spillover Spread Matrix（SSM），以最佳 antibody titers 染色的 single stained splenocytes 計算，分析使用 FlowJo version 10.10。在 462 組 fluorochrome combinations 中，僅 13 組 spillover spread value 大於 4，而且所有數值皆低於 8 [54]。
+圖4為 Spillover Spread Matrix（SSM），以最佳 antibody titers 染色的 single stained splenocytes 計算，分析使用 FlowJo version 10.10。在 462 組 fluorochrome combinations 中，僅 13 組的溢漏擴散值（spillover spread value）大於 4，而且所有數值皆低於 8 [54]。
 
 **8.1.1 | 活死染劑選擇（Selection of Viability Dye）**
 
@@ -344,31 +344,31 @@ OMIP-086 [46] 是一套用於表徵小鼠 innate lymphoid cell subsets 的 spect
 **8.1.2 | 螢光染料配置（Fluorochrome Assignment）**
 
 * **CD45 / Alexa Fluor 700：** 本面板中最暗的 fluorochrome 與高豐度 antigen 配對。
-* **Ly6G / Brilliant UltraViolet 563（BUV563）：** Ly6G 在嗜中性球上高度表現，因此與較暗的 fluorochrome 配對；依 SSM，此染料對其他嗜中性球相關 fluorochromes 的 spillover spread 很低（Figure 4：PerCP-Cy5.5 = 0.54；APC = 0.23）。
+* **Ly6G / Brilliant UltraViolet 563（BUV563）：** Ly6G 在嗜中性球上高度表現，因此與較暗的 fluorochrome 配對；依 SSM，此染料對其他嗜中性球相關 fluorochromes 的 spillover spread 很低（圖4：PerCP-Cy5.5 = 0.54；APC = 0.23）。
 * **CD86 / BUV805：** CD86 在基礎狀態下於 antigen-presenting cells 與 T cells 表現較低，但細胞活化後會顯著上調，因此與 moderate fluorochrome 配對，且對其他 fluorochromes 幾乎沒有 spillover spread。
 * **CTLA-4 / Brilliant Violet 605（BV605）：** CTLA-4 為中等密度的 intracellular antigen，細胞活化後會明顯上調，因此搭配 moderate fluorochrome。
-* **Ly6C / Pacific Blue：** Ly6C 通常在 monocytes 與 macrophages 上高度表現，因此搭配 moderate fluorochrome。Pacific Blue 對其他單核球相關 fluorochromes 的 spillover spread 很低（Figure 4：PerCP-Cy5.5 = 0.35；APC-Fire 810 = 0）。
-* **CD8β / BV480：** 此處將高表現 antigen 與 bright fluorochrome 配對；BV480 對其他 lymphocyte markers 所使用 fluorochromes 的 spillover spread 很低（Figure 4：BV750 = 1.11；PE-Cy5 = 0.47；PE-Cy7 = 0.75）。
-* **MHCII / BV711：** BV711 對 antigen-presenting cell markers 所使用的 fluorochromes spillover spread 有限（Figure 4：BUV805 = 1.92；Spark Blue 550 = 0；APC-Fire 810 = 1.10；BV785 = 0.74）。
-* **NKp46 / BV650：** 中等表現 antigen 搭配 moderate fluorochrome，對 CD49b 的 spillover spread 極低（Figure 4：FITC = 0.08）。
-* **CD4 / BV750 與 CD11c / BV785：** 這兩個 bright fluorochromes 在 SSM 中彼此具有最高數值，因此分配給兩個不共同表現（non-co-expressed）的 antigens。BV750 對其他 lymphocyte fluorochromes 的 spillover spread 較低（Figure 4：BV480 = 1.06；PE = 0.87；PE-Cy5 = 1.21；PE-Cy7 = 1.74）。
+* **Ly6C / Pacific Blue：** Ly6C 通常在 monocytes 與 macrophages 上高度表現，因此搭配 moderate fluorochrome。Pacific Blue 對其他單核球相關 fluorochromes 的 spillover spread 很低（圖4：PerCP-Cy5.5 = 0.35；APC-Fire 810 = 0）。
+* **CD8β / BV480：** 此處將高表現 antigen 與 bright fluorochrome 配對；BV480 對其他 lymphocyte markers 所使用 fluorochromes 的 spillover spread 很低（圖4：BV750 = 1.11；PE-Cy5 = 0.47；PE-Cy7 = 0.75）。
+* **MHCII / BV711：** BV711 對 antigen-presenting cell markers 所使用的 fluorochromes spillover spread 有限（圖4：BUV805 = 1.92；Spark Blue 550 = 0；APC-Fire 810 = 1.10；BV785 = 0.74）。
+* **NKp46 / BV650：** 中等表現 antigen 搭配 moderate fluorochrome，對 CD49b 的 spillover spread 極低（圖4：FITC = 0.08）。
+* **CD4 / BV750 與 CD11c / BV785：** 這兩個 bright fluorochromes 在 SSM 中彼此具有最高數值，因此分配給兩個不共同表現（non-co-expressed）的 antigens。BV750 對其他 lymphocyte fluorochromes 的 spillover spread 較低（圖4：BV480 = 1.06；PE = 0.87；PE-Cy5 = 1.21；PE-Cy7 = 1.74）。
 * **PD-1 / BV421：** 低密度 antigen 搭配 bright fluorochrome。
-* **CD49b / fluorescein isothiocyanate（FITC）：** NK lineage marker 搭配 moderate fluorochrome，且對 NKp46 無 spillover spread（Figure 4：BV650 = 0）。
+* **CD49b / fluorescein isothiocyanate（FITC）：** NK lineage marker 搭配 moderate fluorochrome，且對 NKp46 無 spillover spread（圖4：BV650 = 0）。
 * **CD19 / Spark Blue 550：** 高表現 antigen 搭配 moderate fluorochrome。
-* **CD11b / peridinin-chlorophyll-protein–Cyanine 5.5（PerCP-Cy5.5）：** 高表現 antigen 搭配 dim fluorochrome，且對其他 myeloid cell markers 所使用 fluorochromes 的 spillover spread 很低或接近沒有（Figure 4：BUV563 = 0；Pacific Blue = 2.13；APC = 1.19；APC-Fire 810 = 1.90）。
+* **CD11b / peridinin-chlorophyll-protein–Cyanine 5.5（PerCP-Cy5.5）：** 高表現 antigen 搭配 dim fluorochrome，且對其他 myeloid cell markers 所使用 fluorochromes 的 spillover spread 很低或接近沒有（圖4：BUV563 = 0；Pacific Blue = 2.13；APC = 1.19；APC-Fire 810 = 1.90）。
 * **FoxP3 / phycoerythrin（PE）：** intracellular marker 搭配 bright fluorochrome。
 * **PD-L1 / PE-Dazzle 594：** 低密度 antigen 搭配 bright fluorochrome。
-* **CD69 / PE-Cy5：** 中等表現的 lymphocyte marker 搭配 bright fluorochrome，且對其他 lymphocyte markers 所使用 fluorochromes 的 spillover spread 很低（Figure 4：BV750 = 2.80；BV480 = 0.68；PE = 1.25；PE-Cy7 = 2.39）。
-* **TCRβ / PE-Cy7：** 雖然 PE-Cy7 的亮度高於 TCRβ 通常所需，但它對其他 T-cell markers 所使用 fluorochromes 的 spillover spread 很低（Figure 4：BV750 = 2.62；BV480 = 1.18；BUV805 = 1.76；PE-Cy5 = 1.32）。
+* **CD69 / PE-Cy5：** 中等表現的 lymphocyte marker 搭配 bright fluorochrome，且對其他 lymphocyte markers 所使用 fluorochromes 的 spillover spread 很低（圖4：BV750 = 2.80；BV480 = 0.68；PE = 1.25；PE-Cy7 = 2.39）。
+* **TCRβ / PE-Cy7：** 雖然 PE-Cy7 的亮度高於 TCRβ 通常所需，但它對其他 T-cell markers 所使用 fluorochromes 的 spillover spread 很低（圖4：BV750 = 2.62；BV480 = 1.18；BUV805 = 1.76；PE-Cy5 = 1.32）。
 * **TIM-3 / allophycocyanin-eFluor 780（APC-eFluor 780）：** 低密度 antigen 搭配 bright fluorochrome。
-* **F4/80 / APC-Fire 810：** 中等密度 antigen 搭配 bright fluorochrome，且對其他 macrophage markers 所使用 fluorochromes 的 spillover spread 很低（Figure 4：Pacific Blue = 0.58；PerCP-Cy5.5／APC = 3.31；依 PDF 原文標示保留）。
+* **F4/80 / APC-Fire 810：** 中等密度 antigen 搭配 bright fluorochrome，且對其他 macrophage markers 所使用 fluorochromes 的 spillover spread 很低（圖4：Pacific Blue = 0.58；PerCP-Cy5.5／APC = 3.31；依 PDF 原文標示保留）。
 * **CD206 / APC：** 低密度 antigen 搭配 bright fluorochrome。
 
 **8.2 | 面板最佳化（Panel Optimization）**
 
 **8.2.1 | 抗體滴定與 FMO controls**
 
-Antibody titration 與 stain index calculation 使用 FCS Express version 7（De Novo Software）完成（圖5）。Fluorochromes 以新鮮分離後立即處理的小鼠骨髓細胞進行 titration，每次測試使用 1 × 10⁶ cells，以 twofold serial dilution 方式進行。Titration samples 使用與 MC sample 相同的 staining protocol，最終染色體積同為 150 μL。
+抗體滴定（antibody titration）與染色指數計算（stain index calculation）使用 FCS Express version 7（De Novo Software）完成（圖5）。Fluorochromes 以新鮮分離後立即處理的小鼠骨髓細胞進行 titration，每次測試使用 1 × 10⁶ cells，以 twofold serial dilution 方式進行。Titration samples 使用與 MC sample 相同的 staining protocol，最終染色體積同為 150 μL。
 
 CD69 titration 時，為便於辨識 positive T cell population，加入 LIVE DEAD Blue 與 TCRβ 作為 antibody backbone。研究選擇能達到最大 stain index 的最低飽和 titer；將 SS controls 與 MC samples 比較後，不需再調整 titers。Fluorescence Minus One（FMO）controls 用於界定 MC samples 中的 positive 與 negative populations（圖6）。
 
@@ -379,7 +379,7 @@ CD69 titration 時，為便於辨識 positive T cell population，加入 LIVE DE
 
 **8.2.2 | 面板迭代（Panel Iterations）**
 
-在 panel optimization 過程中，研究團隊於 Iterations 1 與 2 評估多種 reagents，以達到最佳 panel performance。此外，在 Iteration 3 中加入 F4/80、TIM-3 與 CTLA-4，使 panel 由 19 colors 擴充至 22 colors；因此也需要調整部分 antibody-fluorochrome combinations（Table 6、Figure 7）。
+在 panel optimization 過程中，研究團隊於 Iterations 1 與 2 評估多種 reagents，以達到最佳 panel performance。此外，在 Iteration 3 中加入 F4/80、TIM-3 與 CTLA-4，使 panel 由 19 colors 擴充至 22 colors；因此也需要調整部分 antibody-fluorochrome combinations（表6、圖7）。
 
 第一版以 CD8α（clone 53–6.7）/BV570 偵測 cytotoxic T cells，但 titration 顯示 MFI 異常偏低（圖7A），加上 CD8α 可能在 enzymatic tissue digestion 後降低表現 [38]，因此第二版改測 CD8β。由於沒有 BV570-conjugated CD8β，改用 CD8β/BV480；最終配置可改善 TCRβ⁺ CD8⁺ subset 的辨識。
 
@@ -423,9 +423,11 @@ FoxP3 最初使用 clone 150D/PE，但即使搭配 eBioscience FoxP3/Transcripti
 
 **8.2.3 | Reference Control 最佳化**
 
-為選擇適合的 single stained reference controls，研究比較 beads 與 cells（bone marrow cells 或 splenocytes）進行 unmixing 的表現，並利用 N × N plots 檢查 unmixing errors。若 beads 造成 unmixing errors，則改用 cells 作為 reference controls（圖8）。
+為選擇適合的 single stained reference controls，研究比較 beads 與 cells（bone marrow cells 或 splenocytes）進行解混（unmixing）的表現，並利用 N × N plots 檢查 unmixing errors。若 beads 造成 unmixing errors，則改用 cells 作為 reference controls（圖8）。
 
-Bone marrow cells 用於 15 個 markers 的 reference controls：LIVE DEAD Blue、CD45/Alexa Fluor 700、CD11b/PerCP-Cy5.5、MHCII/BV711、Ly6C/Pacific Blue、CD4/BV750、TCRβ/PE-Cy7、PD-L1/PE-Dazzle 594、Ly6G/BUV563、CD11c/BV785、CD8β/BV480、CD69/PE-Cy5、F4/80/APC-Fire 810、TIM-3/APC-eFluor780、FoxP3/PE。其餘 7 個 markers 使用 beads：CD19/Spark Blue 550、CD49b/FITC、CD86/BUV805、CD206/APC、CTLA-4/BV605、NKp46/BV650、PD-1/BV421。
+Bone marrow cells 用於 15 個 markers 的 reference controls：LIVE DEAD Blue、CD45/Alexa Fluor 700、CD11b/PerCP-Cy5.5、MHCII/BV711、Ly6C/Pacific Blue、CD4/BV750、TCRβ/PE-Cy7、PD-L1/PE-Dazzle 594、Ly6G/BUV563、CD11c/BV780[^bv780]、CD8β/BV480、CD69/PE-Cy5、F4/80/APC-Fire 810、TIM-3/APC-eFluor780、FoxP3/PE。其餘 7 個 markers 使用 beads：CD19/Spark Blue 550、CD49b/FITC、CD86/BUV805、CD206/APC、CTLA-4/BV605、NKp46/BV650、PD-1/BV421。
+
+[^bv780]: 譯註：原文 §7.3 步驟 2、步驟 15 與 §8.2.3 三處皆寫 `CD11c/BV780`，但同篇表2、表3與圖6的 detector 配置皆為 `CD11c/BV785`。此處依規格「染料名一律保留原文」保留 `BV780`，差異在此標註，不自行更正。
 
 
 **圖8 | 圖 8 說明：** 使用 beads 與 cells 作為 Reference Controls 時的 unmixing errors。彩色圖可於 Wiley Online Library 查看。
@@ -434,13 +436,13 @@ Bone marrow cells 用於 15 個 markers 的 reference controls：LIVE DEAD Blue�
 
 分析含有不同 AF signatures 細胞類型的樣本時，AF 的處理尤其具有挑戰性 [49, 56–59]。不適當的 AF 處理確實可能造成 artifacts，例如出現實際不存在的細胞族群及／或極端 negative signals。為辨識 AF spectra，本研究使用 SpectroFlo software version 3.2.1 所提供的 Autofluorescence Explorer tool，並依下列步驟進行：
 
-1. **檢查 unstained samples 的 N × 1 plots：** 檢視所有 detectors 的 N × 1 plots（脾臟範例如 Figure 9A），選出能將不同族群與 negative population 清楚分離的 detector combinations。為協助此步驟，同時檢查 unstained sample 的 spectral signature（Figure 9B 範例），找出對 autofluorescence 貢獻最強的 channels。
-2. **定義 population-specific AF signatures：** 在 unstained control 中辨識具有不同 autofluorescence signatures 的 populations（Figure 9B），並將其各自的 spectral signatures（AF tags）納入包含所有 markers 的新 panel cosine similarity matrix（Figure 9C）。
+1. **檢查 unstained samples 的 N × 1 plots：** 檢視所有 detectors 的 N × 1 plots（脾臟範例如圖9A），選出能將不同族群與 negative population 清楚分離的 detector combinations。為協助此步驟，同時檢查 unstained sample 的 spectral signature（圖9B範例），找出對 autofluorescence 貢獻最強的 channels。
+2. **定義 population-specific AF signatures：** 在 unstained control 中辨識具有不同 autofluorescence signatures 的 populations（圖9B），並將其各自的 spectral signatures（AF tags）納入包含所有 markers 的新 panel cosine similarity matrix（圖9C）。
 3. **排除高度相似的 AF tags：** 與其他 fluorochrome signatures 高度相似的 AF tags 予以排除。
-4. **在 unmixed N × 1 plots 中驗證：** 確認 unstained sample 的 unmixed N × 1 plots 中不存在 residual signal（Figure 9D 為範例）。
-5. **選擇最佳 AF tag combinations：** 評估所選 AF tags 的哪一種組合能在 MC sample 中提供最佳表現（Figure 9E、F）。
+4. **在 unmixed N × 1 plots 中驗證：** 確認 unstained sample 的 unmixed N × 1 plots 中不存在 residual signal（圖9D為範例）。
+5. **選擇最佳 AF tag combinations：** 評估所選 AF tags 的哪一種組合能在 MC sample 中提供最佳表現（圖9E、F）。
 
-針對 spleen、bone marrow 與 tumor samples，在選出最能區分不同 AF signatures 族群的 detector pairs 後，分別辨識出 2、3 與 1 個 AF tags（Figures 9B、10、11）。以不同 isolation methods 處理的 spleen tissue，其 AF tags 相同（data not shown）。將特定 AF tags 納入 unmixing algorithm 後，相較於使用 bulk autofluorescence，可減少 artifacts，如 Figure 9F 所示。部分情況下，使用多個 AF tags 會增加 spread（Figure 9E、F：BV480、BV650、Spark Blue 550）；儘管如此，以這些 fluorochromes 染色的 CD19⁺、CD8⁺ 與 NKp46⁺ cells 仍可充分區分（Figure 9E、F）。
+針對 spleen、bone marrow 與 tumor samples，在選出最能區分不同 AF signatures 族群的 detector pairs 後，分別辨識出 2、3 與 1 個 AF tags（圖9B、10、11）。以不同 isolation methods 處理的 spleen tissue，其 AF tags 相同（data not shown）。將特定 AF tags 納入 unmixing algorithm 後，相較於使用 bulk autofluorescence，可減少 artifacts，如圖9F所示。部分情況下，使用多個 AF tags 會增加 spread（圖9E、F：BV480、BV650、Spark Blue 550）；儘管如此，以這些 fluorochromes 染色的 CD19⁺、CD8⁺ 與 NKp46⁺ cells 仍可充分區分（圖9E、F）。
 
 
 **圖9 | 圖 9 說明：** 在 mashed spleen tissue 中辨識 autofluorescence signatures。(A) unstained mashed spleen 的 N × 1 plot 範例，用於找出最能區分不同 autofluorescence signatures 族群的 detector 組合。(B) 用於辨識 spleen AF tags 的 gating strategy。(C) 納入已辨識 AF tags（P1、P2）的 panel cosine similarity matrix；condition number = 55.92。(D) unstained mashed spleen 完成 unmixing 後的 N × 1 plot 範例，用以確認沒有 residual signal。(E) 選擇最佳 AF tag combinations；將 P1、P2 納入 unmixing algorithm 是達成最佳 unmixing 的必要條件。(F) 使用 AF tags 的 unmixing 優於 bulk AF；以多個 AF tags 進行 unmixing 可降低 artifacts。彩色圖可於 Wiley Online Library 查看。
@@ -449,7 +451,7 @@ Bone marrow cells 用於 15 個 markers 的 reference controls：LIVE DEAD Blue�
 
 **圖11 | 圖 11 說明：** 用於 osteosarcoma tissue AF tag identification 的 gating strategy（condition number = 9.79）。彩色圖可於 Wiley Online Library 查看。
 
-**8.2.5 | Single Stained 與 Multicolor 的 marker resolution 比較**
+**8.2.5 | Single Stained 與 Multicolor 的標記解析度（marker resolution）比較**
 
 為驗證面板效能，本研究比較 SS reference controls 與 MC sample 中的 marker resolution，用以確認所有 antibodies 合併並完成 unmixing 後是否發生解析度損失。測試使用同一隻小鼠的新鮮 splenocytes 或 bone marrow cells，SS controls 與 MC sample 平行染色並 gate 至 single cells。 由於 single-stain controls 的 event 數少於 multicolor samples，為了視覺化比較，研究將 multicolor data 進行 subsampling，使其 event 數與 single-stain controls 相同。
 
@@ -470,7 +472,7 @@ Protocol B [60] 中，組織同樣切成 1 × 1 mm 小塊，置於含 3 mL diges
 
 非酵素解離流程中，將 100 μm strainer 放在 50 mL tube 上方，先以 RPMI + 10% FBS + 1% Penicillin–Streptomycin（p/s）潤濕。將 spleen 放在 strainer 上，以 1 mL syringe 的 plunger 端做圓形研磨動作，將組織搗碎並均質化。過程中以 RPMI + 10% FBS + 1% p/s 沖洗 strainer，使細胞自 strainer 洗脫；持續此流程直到 strainer membrane 上只剩 connective tissue。之後再次以 RPMI + 10% FBS + 1% p/s 沖洗 strainer，並將 tube 補至總體積 35 mL。
 
-Figure 13 顯示不同流程之間的差異。相較於 Protocol A 與 mashed spleen，Protocol B 會降低 CD19 與 CD4 的表現。此外，如 OMIP-082 [61] 所報導，Protocol B 中的 Collagenase P 會降低 NKp46 的解析度。根據上述結果，本研究選擇 Protocol A 作為腫瘤組織的消化流程。
+圖13 顯示不同流程之間的差異。相較於 Protocol A 與 mashed spleen，Protocol B 會降低 CD19 與 CD4 的表現。此外，如 OMIP-082 [61] 所報導，Protocol B 中的 Collagenase P 會降低 NKp46 的解析度。根據上述結果，本研究選擇 Protocol A 作為腫瘤組織的消化流程。
 
 
 
@@ -651,11 +653,11 @@ _Cytometry Part A,_ 2026
 
 #### 1. 研究背景與目的
 
-骨肉瘤等發生在骨骼或骨髓中的腫瘤，對許多治療方式的反應仍然有限，其中也包含免疫治療。Binnewies 等人的研究指出，腫瘤免疫微環境（tumor immune microenvironment, TIME）具有高度複雜性，不同免疫細胞的組成與狀態會影響腫瘤發展及治療反應。因此，要了解骨肉瘤如何改變周圍的免疫環境，就需要能同時觀察多種免疫細胞及其功能狀態的方法。本研究的目的，是建立一套 22-marker spectral flow cytometry panel，用來辨識主要免疫細胞族群，同時觀察與細胞活化、耗竭及免疫檢查點相關的標記。研究主要使用 BALB/c 小鼠的骨髓、脾臟及脛骨骨肉瘤組織進行測試與最佳化，希望建立一套適合骨肉瘤研究且具有延伸性的免疫分析方法。
+骨肉瘤等發生在骨骼或骨髓中的腫瘤，對許多治療方式的反應仍然有限，其中也包含免疫治療。Binnewies 等人的研究指出 [1]，腫瘤免疫微環境（tumor immune microenvironment, TIME）具有高度複雜性，不同免疫細胞的組成與狀態會影響腫瘤發展及治療反應。因此，要了解骨肉瘤如何改變周圍的免疫環境，就需要能同時觀察多種免疫細胞及其功能狀態的方法。本研究的目的，是建立一套 22-marker spectral flow cytometry panel，用來辨識主要免疫細胞族群，同時觀察與細胞活化、耗竭及免疫檢查點相關的標記。研究主要使用 BALB/c 小鼠的骨髓、脾臟及脛骨骨肉瘤組織進行測試與最佳化，希望建立一套適合骨肉瘤研究且具有延伸性的免疫分析方法。
 
 #### 2. 方法
 
-本研究使用 4-laser Cytek Aurora 進行 spectral flow cytometry 分析，使用的雷射為 UV 355 nm、Violet 405 nm、Blue 488 nm 及 Red 640 nm。整套面板共有 22 個 markers，可辨識 T cells、B cells、NK cells、DCs、monocytes、macrophages、neutrophils 等主要免疫細胞，另外也加入 CD69、PD-1、PD-L1、CTLA-4、TIM-3 等功能相關標記。Ferrer-Font 等人的研究指出，隨著 full-spectrum flow cytometry panel 的規模與複雜度增加，除了最初的 panel design 外，後續的 antibody titration、reference controls、unmixing 與 marker resolution 等最佳化步驟也相當重要。本研究因此同樣針對抗原表現量、螢光染料亮度、標記共同表現情形及不同螢光染料之間的光譜干擾進行調整，並透過 antibody titration、FMO controls、reference control optimization 及 autofluorescence analysis 確認面板表現。此外，研究也比較不同的組織解離方式，以確認處理流程是否會影響細胞表面標記的偵測結果。
+本研究使用 4-laser Cytek Aurora 進行 spectral flow cytometry 分析，使用的雷射為 UV 355 nm、Violet 405 nm、Blue 488 nm 及 Red 640 nm。整套面板共有 22 個 markers，可辨識 T cells、B cells、NK cells、DCs、monocytes、macrophages、neutrophils 等主要免疫細胞，另外也加入 CD69、PD-1、PD-L1、CTLA-4、TIM-3 等功能相關標記。Ferrer-Font 等人的研究指出 [56]，隨著 full-spectrum flow cytometry panel 的規模與複雜度增加，除了最初的 panel design 外，後續的 antibody titration、reference controls、unmixing 與 marker resolution 等最佳化步驟也相當重要。本研究因此同樣針對抗原表現量、螢光染料亮度、標記共同表現情形及不同螢光染料之間的光譜干擾進行調整，並透過 antibody titration、FMO controls、reference control optimization 及 autofluorescence analysis 確認面板表現。此外，研究也比較不同的組織解離方式，以確認處理流程是否會影響細胞表面標記的偵測結果。
 
 #### 3. 主要發現
 
@@ -663,8 +665,15 @@ _Cytometry Part A,_ 2026
 
 #### 4. 應用價值
 
-這套 OMIP-120 面板的主要價值，是可以在一次實驗中同時觀察多種主要免疫細胞，以及與細胞活化、耗竭和免疫檢查點相關的標記，進而取得較完整的腫瘤免疫環境資訊。Longhini 等人建立的小鼠 spectral flow cytometry backbone panel 顯示，保留穩定的主要免疫細胞標記，再依研究需求加入其他標記，是兼顧一致性與客製化的一種方式。OMIP-120 同樣具有這類延伸性，雖然目前主要針對小鼠骨肉瘤、骨髓及脾臟進行測試與最佳化，但並不侷限於骨肉瘤研究。未來若應用於其他實體腫瘤或血液惡性腫瘤，也可以依實驗目的調整部分 markers，作為後續高維度免疫表型分析的基礎。
+這套 OMIP-120 面板的主要價值，是可以在一次實驗中同時觀察多種主要免疫細胞，以及與細胞活化、耗竭和免疫檢查點相關的標記，進而取得較完整的腫瘤免疫環境資訊。Longhini 等人建立的小鼠 spectral flow cytometry backbone panel 顯示 [39]，保留穩定的主要免疫細胞標記，再依研究需求加入其他標記，是兼顧一致性與客製化的一種方式。OMIP-120 同樣具有這類延伸性，雖然目前主要針對小鼠骨肉瘤、骨髓及脾臟進行測試與最佳化，但並不侷限於骨肉瘤研究。未來若應用於其他實體腫瘤或血液惡性腫瘤，也可以依實驗目的調整部分 markers，作為後續高維度免疫表型分析的基礎。
 
 
 ## 參考資料
 
+「詳細摘要」四節中以作者姓名引用的文獻，對應原文參考文獻編號如下（其餘段落已於行內保留原文的 `[n]` 編號）：
+
+1. M. Binnewies, E. W. Roberts, K. Kersten, et al., "Understanding the Tumor Immune Microenvironment (TIME) for Effective Therapy," *Nature Medicine* 24, no. 5 (2018): 541–550. <https://doi.org/10.1038/s41591-018-0014-x>
+39. A. L. F. Longhini, I. Fernández-Maestre, M. C. Kennedy, et al., "Development of a Customizable Mouse Backbone Spectral Flow Cytometry Panel to Delineate Immune Cell Populations in Normal and Tumor Tissues," *Frontiers in Immunology* 15 (2024): 1374943. <https://doi.org/10.3389/fimmu.2024.1374943>
+56. L. Ferrer-Font, S. J. Small, B. Lewer, et al., "Panel Optimization for High-Dimensional Immunophenotyping Assays Using Full-Spectrum Flow Cytometry," *Current Protocols* 1, no. 9 (2021): e222. <https://doi.org/10.1002/cpz1.222>
+
+本文原始出處：Foderaro S., et al. "OMIP-120: A 22-Marker Spectral Flow Cytometry Panel for the Characterization of Major Immune Populations in Murine Bone Marrow and Osteosarcoma Tissue," *Cytometry Part A*. 2026;109(5):317–349. <https://doi.org/10.1002/cyto.a.70034>（CC BY-NC 4.0）

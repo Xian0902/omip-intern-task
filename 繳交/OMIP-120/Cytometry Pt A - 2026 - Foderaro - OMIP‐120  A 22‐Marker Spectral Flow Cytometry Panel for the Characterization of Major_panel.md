@@ -73,11 +73,10 @@ extracted_at: "2026-09-16"
 | NK cells NK 細胞 | 2 | NKp46, CD49b |
 | B-cells B 細胞 | 1 | CD19 |
 | Macrophages 巨噬細胞 | 4 | CD11b, Ly6C, F4/80, CD206 |
-| Dendritic cells 樹突細胞 | 2 | CD11b, CD206 |
+| Dendritic cells / DCs 樹突細胞 | 3 | CD11b, CD11c, CD206 |
 | granulocytes 顆粒球 | 1 | CD11b |
 | Monocytes 單核球 | 1 | Ly6C |
 | Pan Neutrophils 泛嗜中性球 | 1 | Ly6G |
-| DCs 樹突細胞 | 1 | CD11c |
 | B cells and various APC subsets B 細胞與各類 APC 亞群 | 1 | MHCII |
 | Activation 活化 | 1 | CD69 |
 | M1 macrophages M1 巨噬細胞 | 1 | CD86 |
@@ -91,19 +90,19 @@ extracted_at: "2026-09-16"
 
 ## 面板設計重點
 
-* **兼顧主要免疫細胞與功能狀態：** 面板除了辨識 T cells、B cells、NK cells、DCs、monocytes、macrophages 與 neutrophils 等主要白血球族群，也納入 activation、exhaustion 與 immune checkpoint 相關標記，以分析骨髓與骨肉瘤腫瘤微環境中的免疫變化。
-* **依抗原表現量配置螢光染料亮度：** 設計時原則上將 bright fluorochromes 配給低表現 markers，dim fluorochromes 配給高表現 markers，並同時考慮 marker co-expression，降低共同表現標記之間的 spectral overlap。
-* **控制光譜干擾與 spillover spread：** 最終面板所有 fluorochrome pairs 的 cosine similarity 均低於 0.89，condition number 為 8.9；462 組 fluorochrome combinations 中僅 13 組 spillover spread value 大於 4，且全部低於 8。
-* **考慮不同組織的 autofluorescence：** 由於 violet 與 ultraviolet channels 較容易受到 autofluorescence 影響，設計上優先將 lymphoid markers 配置於這些 channels，並盡量將 myeloid markers 配給主要在 red channels 發射的 fluorochromes。
-* **保留實際應用與客製化彈性：** 本面板以 22 colors 的中等規模設計，主要針對 murine osteosarcoma、bone marrow 與 spleen 最佳化，同時保留延伸至其他 solid tumors 與 hematological malignancies 的調整空間。
+- **少數標記刻意重複使用，讓 22 色解析出遠多於 22 個族群：** CD11b 與 Ly6C 並非只用於髓系譜系判定 —— CD11b 另用於區分未成熟（CD11b⁻）與成熟（CD11b⁺）NK 細胞，Ly6C 另用於區分活化（Ly6C-low）與靜止（Ly6C-high）NK 細胞，兩者合併又把樹突細胞（DCs）切成 cDC1（Ly6C⁻CD11b⁻）、cDC2（Ly6C⁻CD11b⁺）、pDC（Ly6C⁺CD11b⁻）與 moDC（Ly6C⁺CD11b⁺）。這是在 4 雷射 Cytek Aurora 的通道數限制下，用有限色數換取最大族群解析度的關鍵取捨。
+- **依抗原表現量配置螢光染料亮度：** 設計時原則上將亮度高的螢光染料（bright fluorochromes）配給低表現量標記（low-expression markers），亮度低的螢光染料（dim fluorochromes）配給高表現量標記，並同時考慮標記共同表現（marker co-expression）情形，降低共表現標記之間的光譜重疊（spectral overlap）。
+- **控制光譜干擾與溢漏擴散（spillover spread）：** 最終面板所有螢光染料配對（fluorochrome pairs）的餘弦相似度（cosine similarity）均低於 0.89，條件數（condition number）為 8.9；462 組染料組合中僅 13 組的溢漏擴散值大於 4，且全部低於 8。
+- **考慮不同組織的自體螢光（autofluorescence）：** 由於紫光（violet）與紫外光（ultraviolet）通道較易受自體螢光干擾，設計上優先把淋巴系標記（lymphoid markers）配置於這些通道，並盡量將髓系標記（myeloid markers）配給主要在紅光（red）通道發射的染料。
+- **保留實際應用與客製化彈性：** 本面板以 22 色的中等規模設計，主要針對小鼠骨肉瘤（murine osteosarcoma）、骨髓與脾臟最佳化，同時保留延伸至其他實體腫瘤（solid tumors）與血液惡性腫瘤（hematological malignancies）的調整空間。
 
 ## 交叉參考
 
-* **OMIP-032：** 與本面板重疊 Ly6G、Ly6C、CD8β、NKp46、MHCII、CD4、CD11c、CD49b、CD11b、TCRβ、CD206、CD45。
-* **OMIP-054：** 與本面板重疊 CD45、TCRβ、CD4、FoxP3、CD8β、Ly6G、Ly6C、CD11b、CD11c、MHCII、CD206、CD69、CTLA-4、PD-1、PD-L1、TIM-3。
-* **OMIP-061：** 與本面板重疊 CD45、CD3、Ly6G、F4/80、CD11b、CD11c、Ly6C。
-* **OMIP-076、OMIP-079、OMIP-088：** 與本面板具有少部分標記重疊。原文指出上述所有 OMIP（OMIP-032、OMIP-054、OMIP-061、OMIP-076、OMIP-079、OMIP-088）皆針對 mass cytometry 或 conventional flow cytometry 設計及最佳化。
-* **OMIP-086、OMIP-093、OMIP-095、OMIP-104、OMIP-105：** 皆為與本面板部分重疊的 murine spectral flow cytometry panels；各面板著重的組織與免疫細胞族群不同。
+- **OMIP-032：** 與本面板重疊 Ly6G、Ly6C、CD8β、NKp46、MHCII、CD4、CD11c、CD49b、CD11b、TCRβ、CD206、CD45。
+- **OMIP-054：** 與本面板重疊 CD45、TCRβ、CD4、FoxP3、CD8β、Ly6G、Ly6C、CD11b、CD11c、MHCII、CD206、CD69、CTLA-4、PD-1、PD-L1、TIM-3。
+- **OMIP-061：** 與本面板重疊 CD45、CD3、Ly6G、F4/80、CD11b、CD11c、Ly6C。
+- **OMIP-076、OMIP-079、OMIP-088：** 與本面板具有少部分標記重疊。原文指出上述所有 OMIP（OMIP-032、OMIP-054、OMIP-061、OMIP-076、OMIP-079、OMIP-088）皆針對質譜流式細胞術（mass cytometry）或傳統流式細胞術（conventional flow cytometry）設計及最佳化。
+- **OMIP-086、OMIP-093、OMIP-095、OMIP-104、OMIP-105：** 皆為與本面板部分重疊的小鼠全光譜流式面板（murine spectral flow cytometry panels）；各面板著重的組織與免疫細胞族群不同。
 
 ## 資料缺漏與註記
 
@@ -112,4 +111,4 @@ extracted_at: "2026-09-16"
 | Table 2 RRID | 原論文 Table 2 未提供 RRID | 22 列皆填 `N/A`，不另行查找或臆測 |
 | Dead cells 的 Clone | 原論文以破折號（—）表示，未提供 clone | 依規格轉為 `N/A` |
 | Purpose 用途詞彙 | OMIP-120 Table 2 多數 Purpose 為細胞族群或功能描述，並非規格用途對照表中的固定詞彙 | 依原文語意翻譯，並在此註記 |
-| 用途分類統計 | 原文同時使用 `Dendritic cells`、`dendritic cells` 與 `DCs` 等寫法 | 大小寫差異合併；不同原文名稱不自行視為同一類別 |
+| 用途分類統計 | 原文同時使用 `Dendritic cells`、`dendritic cells` 與 `DCs` 等寫法 | 三者為同一細胞類別的拼寫差異，合併為單一列 `Dendritic cells / DCs 樹突細胞`（標記數 3），避免繁中類別名撞名造成下游鍵值衝突；其餘不同語意的原文名稱不自行合併 |

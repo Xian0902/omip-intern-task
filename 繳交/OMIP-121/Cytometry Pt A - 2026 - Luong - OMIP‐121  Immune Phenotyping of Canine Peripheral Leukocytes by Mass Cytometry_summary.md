@@ -35,7 +35,7 @@
 
 犬類免疫系統與人類免疫系統具有多項相似之處，因此犬類免疫分析所得資料具有較高的轉譯應用價值 [1]。犬類免疫表型分析所獲得的資訊，有助於比較腫瘤學（comparative oncology）的發展，讓研究者能更深入了解癌症生物學，並協助開發可同時應用於犬與人類的診斷與治療方法。PBMCs 的免疫表型分析，是了解此類免疫反應的重要方法之一。
 
-質譜流式細胞術能對免疫細胞族群進行高維度分析，在單細胞層級提供完整且精確的表徵 [2]。先前如 multicolor flow panels 等研究已證實犬完整免疫分析的價值，同時也顯示詳細白血球分析需要具彈性且穩健的解決方案 [3, 4]。質譜流式細胞術可建立 backbone panel，之後能在不大幅重新設計或修改 backbone 的情況下加入額外 markers。
+質譜流式細胞術能對免疫細胞族群進行高維度分析，在單細胞層級提供完整且精確的表徵 [2]。先前如 multicolor flow panels 等研究已證實犬完整免疫分析的價值，同時也顯示詳細白血球分析需要具彈性且穩健的解決方案 [3, 4]。質譜流式細胞術可建立骨架面板（backbone panel），之後能在不大幅重新設計或修改骨架的情況下加入額外標記（markers）。
 
 因此，本研究建立一套 15-marker mass cytometry panel，用於冷凍保存犬 PBMCs 的穩健免疫表型分析（表1、表2）。此面板可辨識 B cells、CD4⁺ T cells、Tregs、CD8⁺ T cells、NKT cells、NK cells、DCs、CD4⁺ monocytes、classical monocytes 及 neutrophils 等多種免疫細胞 lineage，並可進一步區分 naïve、central memory 與 effector memory 等 T cell differentiation states。面板亦納入 CD45 作為 pan-leukocyte marker，用於確認白血球身分，並支援未來犬非淋巴組織分析的應用。
 
@@ -80,19 +80,19 @@
 
 為表徵 T cell subsets，研究使用 CD4 與 CD8 分別辨識 helper 與 cytotoxic T cells。Tregs 定義為 CD25 與 FOXP3 共同表現 [7]，並加入 Granzyme B 評估 CD8⁺ T cells 的細胞毒殺活性。為判斷 T cells 的分化狀態，研究使用 Eomes/CD44 phenotype，將其分為 naïve（CD44⁻Eomes⁻）、central memory（CD44⁺Eomes⁻）與 effector memory（CD44⁺Eomes⁺）T cell subsets [8–11]。
 
-Eomes 是 T-box transcription factor，除了在 cytotoxic lymphocyte differentiation 中具有重要角色 [9, 12, 13]，也參與 CD4⁺ T cell differentiation [8, 11]。Eomes 在 T cell activation 與 effector differentiation 過程中會增加，其中 effector memory CD8⁺ T cells 與 long-lived memory precursors 的表現最高，可與 Eomes 表現較低的 naïve 或 central memory cells 區分 [9, 13]。另一方面，CD44 是常用的 antigen-experienced cell marker，也曾用於犬 memory T cells 的辨識 [10, 14]。CD44 在 antigenic/mitogenic activation 後會上升，且在 memory CD4⁺ 與 CD8⁺ T cells 維持較高表現；相較於 CD44⁻low naïve cells，這些細胞會產生較高程度的 TNF-α 等 effector cytokines [4, 14]。
+Eomes 是 T-box transcription factor，除了在 cytotoxic lymphocyte differentiation 中具有重要角色 [9, 12, 13]，也參與 CD4⁺ T cell differentiation [8, 11]。Eomes 在 T cell activation 與 effector differentiation 過程中會增加，其中 effector memory CD8⁺ T cells 與 long-lived memory precursors 的表現最高，可與 Eomes 表現較低的 naïve 或 central memory cells 區分 [9, 13]。另一方面，CD44 是常用的 antigen-experienced cell marker，也曾用於犬 memory T cells 的辨識 [10, 14]。CD44 在 antigenic/mitogenic activation 後會上升，且在 memory CD4⁺ 與 CD8⁺ T cells 維持較高表現；相較於 CD44 低表現（CD44-low）的 naïve cells，這些細胞會產生較高程度的 TNF-α 等 effector cytokines [4, 14]。
 
 B cells 則利用 CD21、CD22 與 MHC-II 的組合進行辨識 [15]。犬 NK cells 的 phenotype 定義為 CD3⁻CD21⁻GranzymeB⁺CD94⁺ [6, 16]，並可依 CD335 再分為 CD335⁺ 與 CD335⁻ subsets，可能代表不同 activation stages [17, 18]。CD335⁺ subset 被發現具有較高 cytotoxic activity，但兩個族群的 cytokine secretion profiles 相近 [17, 18]。犬 NK cells 也常可觀察到 CD8 expression，在特定條件下比例最高可達 30% [18–20]；本研究發現所有 CD8⁺ NK cells 均缺乏 CD335 expression，顯示犬 NK cell compartment 可能具有功能與發育上的異質性（圖1）。
 
 除了 classical monocytes（CD4⁻MHC-II⁺）之外，犬還具有一群缺乏 MHC-II expression 的 CD4⁺ monocyte subset，其比例明顯低於全部 CD14⁺ monocytes [21, 22]。犬 DCs 在形態上與人類 DCs 相似，其表面可表現 CD8 與 MHC-II [23]。此外，犬 peripheral blood neutrophils 也可偵測到 CD4 expression，這是哺乳類動物中相當特殊的特徵 [24]。
 
-所有 panel optimization 與 antibody titration experiments 均使用 CyTOF XT mass cytometer（Standard BioTools, South San Francisco, USA）進行。最終面板也使用 Lunarion mass cytometer（Polaris, Shanghai, China）取得資料，以評估面板效能並確認不同儀器間的相容性。
+所有面板最佳化（panel optimization）與抗體滴定（antibody titration）實驗均使用 CyTOF XT mass cytometer（Standard BioTools, South San Francisco, USA）進行。最終面板也使用 Lunarion mass cytometer（Polaris, Shanghai, China）取得資料，以評估面板效能並確認不同儀器間的相容性。
 
-**圖1 | OMIP-121 染色與 gating 範例**
+**圖1 | OMIP-121 染色與圈選（gating）範例**
 
-使用 CyTOF XT mass cytometer 對冷凍保存犬 PBMCs 進行 manual gating 的代表性範例。資料清理後先移除 EQ calibration beads，並預先選取 live singlet cells（圖9），再依 CD45 expression 辨識 leukocytes。T cells 與 B cells 分別使用 CD3 與 CD21 辨識，B cell identity 再以 CD22 與 MHC-II expression（CD22⁺MHC-II⁺）確認。CD3⁺ population 中，NKT cells 定義為 CD94⁺，conventional T cells 定義為 CD94⁻，並分析 NKT cells 上 CD4 與 CD8 expression。Conventional T cells 進一步分為 CD4⁺CD8⁻、CD4⁻CD8⁺ 及 CD4⁺CD8⁺ subsets；Tregs 以 CD25⁺FOXP3⁺ 辨識。排除 FOXP3⁺CD25⁺ population 後，以 CD44 與 EOMES 將 CD4 與 CD8 T cells 分為 naïve（CD44⁻EOMES⁻）、central-memory（CD44⁺EOMES⁻）與 effector-memory（CD44⁺EOMES⁺）subsets，並分析 Granzyme B。CD3⁻CD21⁻ population 中，以 Granzyme B⁺ 辨識 NK cells，再依 CD94、CD8a 與 CD335 進一步表徵；Granzyme B⁻ population 中以 CD14⁺ 辨識 monocytes，再分為 CD4⁺MHC-II⁻ monocytes 與 CD4⁻MHC-II⁺ classical monocytes。CD14⁻ population 中的 DCs 定義為 CD8⁺MHC-II⁺，而 CD8⁻ population 中以 CD4⁺ 辨識 neutrophils。Mass cytometry data 以 cofactor 4 的 ArcSinh transformation 匯出為 FCS file，並使用 FlowJo v10.10 分析。
+使用 CyTOF XT mass cytometer 對冷凍保存犬 PBMCs 進行 manual gating 的代表性範例。資料清理後先移除 EQ calibration beads，並預先選取存活單細胞（live singlet cells）（圖9），再依 CD45 expression 辨識 leukocytes。T cells 與 B cells 分別使用 CD3 與 CD21 辨識，B cell identity 再以 CD22 與 MHC-II expression（CD22⁺MHC-II⁺）確認。CD3⁺ population 中，NKT cells 定義為 CD94⁺，conventional T cells 定義為 CD94⁻，並分析 NKT cells 上 CD4 與 CD8 expression。Conventional T cells 進一步分為 CD4⁺CD8⁻、CD4⁻CD8⁺ 及 CD4⁺CD8⁺ subsets；Tregs 以 CD25⁺FOXP3⁺ 辨識。排除 FOXP3⁺CD25⁺ population 後，以 CD44 與 EOMES 將 CD4 與 CD8 T cells 分為 naïve（CD44⁻EOMES⁻）、central-memory（CD44⁺EOMES⁻）與 effector-memory（CD44⁺EOMES⁺）subsets，並分析 Granzyme B。CD3⁻CD21⁻ population 中，以 Granzyme B⁺ 辨識 NK cells，再依 CD94、CD8a 與 CD335 進一步表徵；Granzyme B⁻ population 中以 CD14⁺ 辨識 monocytes，再分為 CD4⁺MHC-II⁻ monocytes 與 CD4⁻MHC-II⁺ classical monocytes。CD14⁻ population 中的 DCs 定義為 CD8⁺MHC-II⁺，而 CD8⁻ population 中以 CD4⁺ 辨識 neutrophils。Mass cytometry data 以 cofactor 4 的 ArcSinh transformation 匯出為 FCS file，並使用 FlowJo v10.10 分析。
 
-Mass cytometry 可同時測量單一面板中最多約 60 個參數 [2]。除了 preconjugated antibodies 的選擇外，抗體與 metal isotopes 的配對也需仔細考量，以獲得最佳 signal intensity 並降低 signal interference。低表現 markers 應配置於儀器高靈敏度偵測範圍的 isotopes，高表現 markers 則可配置於較低靈敏度 channels [25]。雖然 mass cytometry 的 signal spillover 明顯低於 fluorescence-based methods，仍須處理 M ± 1 abundance spillover、M + 16 oxidation spillover 與 isotope impurity 三種主要干擾來源 [2]。因此，低表現 markers 應避免配置於高表現 marker 所使用 isotope 的 M ± 1 或 M + 16 channels。詳細 panel optimization 步驟見第3節。
+Mass cytometry 可同時測量單一面板中最多約 60 個參數 [2]。除了 preconjugated antibodies 的選擇外，抗體與 metal isotopes 的配對也需仔細考量，以獲得最佳 signal intensity 並降低 signal interference。低表現 markers 應配置於儀器高靈敏度偵測範圍的 isotopes，高表現 markers 則可配置於較低靈敏度 channels [25]。雖然 mass cytometry 的訊號溢漏（signal spillover）明顯低於螢光法（fluorescence-based methods），仍須處理 M ± 1 豐度溢漏（abundance spillover）、M + 16 氧化物溢漏（oxidation spillover）與同位素純度不足（isotope impurity）三種主要干擾來源 [2]。因此，低表現 markers 應避免配置於高表現 marker 所使用 isotope 的 M ± 1 或 M + 16 channels。詳細 panel optimization 步驟見第3節。
 
 **1.3 | 與其他已發表 OMIP 的相似性**
 
@@ -227,7 +227,7 @@ CyTOF XT 使用 EQ Six Element Calibration Beads 進行 instrument tuning，以�
 **2.2.3.3 | 細胞表面染色**
 
 1. 加入 5 μL Canine Fc Receptor Binding Inhibitor Solution，室溫孵育 20 min。
-2. 以 CSB 配製 30 μL cell-surface staining antibody cocktail。
+2. 以 CSB 配製 30 μL 細胞表面染色抗體混合液（cell-surface staining antibody cocktail）。
 3. 將 antibody cocktail 加入 cell suspension，使 final volume 為 100 μL，輕柔混合。
 4. 室溫孵育 30 min。
 5. 每 well 加入 100 μL CSB 清洗，輕柔混合後於室溫 500g 離心 5 min，去除上清液。
@@ -235,7 +235,7 @@ CyTOF XT 使用 EQ Six Element Calibration Beads 進行 instrument tuning，以�
 
 **圖2 | OMIP-121 面板試劑滴定**
 
-所有 antibodies 均在犬 PBMCs 上以 threefold serial dilution series 進行 titration。Concatenated plots 以 live single CD45⁺ cells gating，紅框表示 optimal antibody concentrations。星號表示 concatenated plots 無法準確反映最佳染色濃度的項目；這些項目另外以最相關 cell population 的 individual bivariate plots 呈現於圖5。
+所有 antibodies 均在犬 PBMCs 上以 threefold serial dilution series 進行 titration。Concatenated plots 以 live single CD45⁺ cells gating，紅框表示 optimal antibody concentrations。星號表示合併圖（concatenated plots）無法準確反映最佳染色濃度的項目；這些項目另外以最相關 cell population 的個別雙變數圖（individual bivariate plots）呈現於圖5。
 
 **2.2.3.4 | 細胞內染色**
 
@@ -260,11 +260,11 @@ CyTOF XT 使用 EQ Six Element Calibration Beads 進行 instrument tuning，以�
 
 **圖3 | 犬 NKT 與 T cell subsets 的表徵**
 
-(A) 以 CD94/CD335、CD4/CD94 與 CD94 histogram 分析 NK/NKT cells，並評估 NKT cells 的 CD4/CD8a expression。(B) 比較各 leukocyte subsets 的 MHC-II expression。(C) 分析 CD8⁺ 與 CD4⁺ T cells 中 Granzyme B/CD3 expression。(D) 以 CD25/FOXP3 辨識 Tregs（CD25⁺FOXP3⁺）與 activated T cells（CD25⁺FOXP3⁻），並比較 MHC-II expression。(E) 比較 CD4⁺ single-positive、CD8⁺ single-positive 與 CD4⁺CD8⁺ double-positive T cells 中 activated T cells 的頻率。(F) 以 CD44/Eomes 區分 naïve、central memory 與 effector memory T cells。(G) 比較三種 T-cell subsets 中 Tregs 的頻率。統計採 repeated measures one-way ANOVA 與 Tukey post hoc tests；*p < 0.05、**p < 0.01、***p < 0.001。
+犬 NKT 細胞與 T 細胞亞群（T cell subsets）的表徵。(A) 第一張圖為 CD45⁺/CD3⁻CD21⁻/Granzyme B⁺ 族群中 CD94 對 CD335 的代表性圖，用以辨識 NK 細胞（CD94⁺）。第二張圖為 CD45⁺/CD3⁺ 族群中 CD4 對 CD94 的代表性圖，用以辨識 NKT 細胞（CD94⁺）。第三張圖為 histogram，呈現表5所定義各白血球亞群的 CD94 表現量。第四張圖為 NKT 細胞上 CD4 對 CD8a 表現的代表性圖，並標示各亞群的頻率。(B) Histogram，呈現表5所定義各白血球亞群的 MHC-II 表現量。(C) CD8⁺ T 細胞與 CD4⁺ T 細胞中 Granzyme B 對 CD3 表現的代表性圖。(D) CD4⁺ T 細胞上 CD25 對 FOXP3 的代表性圖，用以辨識 Tregs（CD25⁺FOXP3⁺）與活化 T 細胞（CD25⁺FOXP3⁻）；對應的 histogram 顯示這些亞群內的 MHC-II 表現量。(E) CD4⁺ sp.、CD8⁺ sp. 與 CD4⁺CD8⁺ dp T 細胞中活化 T 細胞（CD25⁺FOXP3⁻）的頻率。僅標示具統計顯著性的比較：p（CD8⁺ sp. T 細胞 vs. CD4⁺CD8⁺ dp T 細胞）= 0.0337。(F) CD44 對 Eomes 的代表性圖，於 CD4⁺ sp.、CD8⁺ sp. 與 CD4⁺CD8⁺ dp T 細胞中區分 naïve（TN，CD44⁻Eomes⁻）、中央記憶（TCM，CD44⁺Eomes⁻）與效應記憶（TEM，CD44⁺Eomes⁺）T 細胞族群。(G) CD4⁺ sp.、CD8⁺ sp. 與 CD4⁺CD8⁺ dp T 細胞中 Tregs（CD25⁺FOXP3⁺）的頻率。僅標示具統計顯著性的比較：p（CD4⁺ sp. T 細胞 vs. CD8⁺ sp. T 細胞）= 0.0106，p（CD8⁺ sp. T 細胞 vs. CD4⁺CD8⁺ dp T 細胞）= 0.0256。(E) 與 (G) 中，每個圓點代表一隻個別犬隻；結果以 mean ± SD 表示（n = 4，包含 D1、D2、D3、D4）。統計分析採用 repeated measures one-way ANOVA，後續進行 Tukey's post hoc tests。具統計顯著差異者以星號標示（*p < 0.05；**p < 0.01；***p < 0.001）。
 
 **圖4 | 犬 NK cells、monocytes、neutrophils 與 DCs 的表徵**
 
-圖4呈現 Granzyme B、CD94、CD335、CD8a 等 markers 對 NK cell subsets 的表徵，以及 CD14、CD4、MHC-II、CD8a 等 markers 對 monocytes、neutrophils 與 DCs 的辨識結果，用以驗證本面板對犬主要 innate immune populations 的 gating strategy。
+犬 NK 細胞、單核球（monocytes）、嗜中性球（neutrophils）與樹突細胞（DCs）的表徵。(A) Histogram，呈現 CD335⁺ 與 CD335⁻ NK 細胞族群的 Granzyme B 表現量。(B) NK 細胞上 Eomes 對 CD8a 與 CD335 對 CD8a 的代表性圖。(C) 單核球上 MHC-II 對 CD4 的代表性圖，用以辨識 CD4⁺ 單核球（CD4⁺MHC-II⁻）與典型單核球（CD4⁻MHC-II⁺）。(D) CD45⁺/CD3⁻CD21⁻/Granzyme B⁻/CD14⁻/CD8a⁻ 族群中 MHC-II 對 CD4 的代表性圖，用以辨識嗜中性球（CD4⁺）。(E) CD45⁺/CD3⁻CD21⁻/Granzyme B⁻/CD14⁻ 族群中 MHC-II 對 CD8a 的代表性圖，用以辨識 DCs（CD8a⁺MHC-II⁺）；對應的 histogram 顯示表5所定義各白血球亞群的 CD8a 表現量。(F) Histogram，呈現表5所定義各白血球亞群的 CD45 表現量。
 
 **2.2.3.5 | 樣本取得**
 
@@ -300,19 +300,19 @@ DC marker 方面，研究測試 CD1a、CD40、CD86 與 CD11c。由於研究未�
 
 Basophils 部分，研究未找到犬 basophils 的專一 markers。雖然人類常使用 CD63 與 CD123，但本研究測試後未獲得足以納入面板的可靠 staining，因此未將 basophils 納入最終主要族群定義。
 
-Memory T cells 的辨識曾比較 CD44/CD62L 與 CD44/Eomes。由於 CD62L staining resolution 不佳，研究改採 CD44/Eomes paradigm，以 CD44⁻Eomes⁻、CD44⁺Eomes⁻ 與 CD44⁺Eomes⁺ 分別定義 naïve、central memory 與 effector memory populations（圖8）。
+Memory T cells 的辨識曾比較 CD44/CD62L 與 CD44/Eomes。由於 CD62L 染色解析度（staining resolution）不佳，研究改採 CD44/Eomes 判準（paradigm），以 CD44⁻Eomes⁻、CD44⁺Eomes⁻ 與 CD44⁺Eomes⁺ 分別定義 naïve、central memory 與 effector memory populations（圖8）。
 
 **圖5 | Concatenated plots 無法準確反映最佳染色濃度之 markers 的詳細分析**
 
-圖5針對圖2中以星號標示的 markers，使用最相關 cell population 的 individual bivariate plots 比較不同 antibody concentrations，以決定最適 staining concentration。
+Concatenated plots 無法準確反映最佳染色濃度之 markers 的詳細分析。第一列為 CD4 抗體滴定，並附上 T 細胞族群中 CD3 對 CD4 在連續稀釋系列下的 bivariate plot。第二列為 MHC-II 抗體滴定，並附上單核球族群中 MHC-II 對 CD4 在連續稀釋系列下的 bivariate plot。第三列為 CD335 抗體滴定，並附上 NK 細胞與 B 細胞（陰性對照）中 MHC-II 對 CD335 的 bivariate plot。第四列為 Granzyme B 抗體滴定，並附上 CD8⁺ T 細胞中 CD3 對 Granzyme B，以及 CD45⁺/CD21⁻CD3⁻ 族群中 Granzyme B 對 CD14（用以辨識 NK 細胞）的 bivariate plot。
 
 **圖6 | 犬 PBMCs 中 CD21、CD22 與 CD79a 作為 B-cell markers 的比較**
 
-研究比較三種 markers 的 B-cell specificity；CD79a 未呈現足夠專一性，因此最終面板選擇 CD21 與 CD22。
+犬 PBMCs 中 CD21、CD22 與 CD79a 作為 B 細胞標記的比較分析。第一列為 live single CD45⁺ 族群中 CD79a 對 CD3 的代表性圖，說明 CD79a⁺ 族群的 gating；後續各圖顯示此 CD79a⁺ gated 族群內 CD22 與 CD21 的表現，用以辨識 B 細胞。對應的 histogram 呈現表5所定義各白血球亞群的 CD79a 表現量。第二列為 live single CD45⁺ 族群中 CD21 對 CD3 的代表性圖，說明 CD21⁺CD3⁻ 族群的 gating；後續各圖顯示此 CD21⁺CD3⁻ gated 族群內 CD79a 與 CD22 的表現，用以辨識 B 細胞。對應的 histogram 呈現表5所定義各白血球亞群的 CD21 表現量。第三列為 live single CD45⁺ 族群中 CD22 對 CD3 的代表性圖，說明 CD22⁺CD3⁻ 族群的 gating；後續各圖顯示此 CD22⁺CD3⁻ gated 族群內 CD79a 與 CD21 的表現，用以辨識 B 細胞。對應的 histogram 呈現表5所定義各白血球亞群的 CD22 表現量。
 
 **圖7 | Antigen-presenting cell markers 與犬 DCs 的分析**
 
-(A) 比較 anti-human HLA-DR 與 anti-canine MHC-II，後者具有較佳 signal intensity、specificity 與 population resolution。(B) 評估 CD1a、CD40、CD86 與 CD11c 等 DC-related markers；在未刺激 PBMCs 條件下未得到足以取代 CD8/MHC-II gating 的結果。
+(A) 犬 PBMCs 中 HLA-DR 與 MHC-II 作為抗原呈現細胞標記的比較分析。(B) 犬 DCs 的表徵。(A) 第一列為 MHC-II 於犬 PBMCs 上以三倍連續稀釋系列進行的滴定；concatenated plot 以 live single CD45⁺ cells gating。對應的 histogram 呈現在抗體效價 3:100 時，表5所定義各白血球亞群的 MHC-II 表現量。第二列為 HLA-DR 於犬 PBMCs 上以三倍連續稀釋系列進行的滴定；concatenated plot 以 live single CD45⁺ cells gating。對應的 histogram 呈現在抗體效價 9:100 時，表5所定義各白血球亞群的 HLA-DR 表現量。(B) CD45⁺/CD3⁻CD21⁻/Granzyme B⁻/CD14⁻ 族群中 MHC-II 對 CD1a、CD40、CD86、CD11c 的代表性圖。
 
 **圖8 | 犬 CD4⁺ 與 CD8⁺ T cells 記憶亞群定義方式比較**
 
@@ -348,25 +348,25 @@ Memory T cells 的辨識曾比較 CD44/CD62L 與 CD44/Eomes。由於 CD62L stain
 
 **3.2.2 | 替代試劑測試**
 
-研究在建立最終面板前測試多種替代 antibodies 與 markers。部分 antibodies 因 no staining detected、poor resolution、poor specificity、weak staining，或僅在 stimulation 後表現而被排除。這些測試結果整理於表6。
+研究在建立最終面板前測試多種替代 antibodies 與 markers。部分 antibodies 因未偵測到染色（no staining detected）、解析度不佳（poor resolution）、專一性不佳（poor specificity）、染色訊號偏弱（weak staining），或僅在刺激（stimulation）後才表現而被排除。這些測試結果整理於表6。
 
 **表6 | 測試過但未納入最終面板的試劑**
 
 | 標記（Specificity） | Clone | 同位素（Isotope） | 排除原因（Reason for exclusion） |
 |---|---|---|---|
-| CD4 | SK3 | 144Nd | 未偵測到染色訊號 |
-| CD62L | FMC46 | 145Nd | 解析度不佳 |
-| CD11c | Bu15 | 147Sm | 未偵測到染色訊號 |
-| CD16 | 3G8 | 148Nd | 未偵測到染色訊號 |
-| CD123 | 107D2.08 | 154Sm | 未偵測到染色訊號 |
-| CD86 | Bu63 | 156Gd | 僅在刺激條件下表現 |
-| CD1a | NA1/34 | 158Gd | 僅在刺激條件下表現 |
-| CD40 | LOB7/6 | 161Dy | 僅在刺激條件下表現 |
-| CD62L | FMC46 | 162Dy | 解析度不佳 |
+| CD4 | SK3 | <sup>144</sup>Nd | 未偵測到染色訊號 |
+| CD62L | FMC46 | <sup>145</sup>Nd | 解析度不佳 |
+| CD11c | Bu15 | <sup>147</sup>Sm | 未偵測到染色訊號 |
+| CD16 | 3G8 | <sup>148</sup>Nd | 未偵測到染色訊號 |
+| CD123 | 107D2.08 | <sup>154</sup>Sm | 未偵測到染色訊號 |
+| CD86 | Bu63 | <sup>156</sup>Gd | 僅在刺激條件下表現 |
+| CD1a | NA1/34 | <sup>158</sup>Gd | 僅在刺激條件下表現 |
+| CD40 | LOB7/6 | <sup>161</sup>Dy | 僅在刺激條件下表現 |
+| CD62L | FMC46 | <sup>162</sup>Dy | 解析度不佳 |
 | CD45RO | UCHL1 | <sup>163</sup>Dy | 未偵測到染色訊號 |
-| CD8a | SK1 | 168Er | 未偵測到染色訊號 |
-| CD79a | HM57 | 169Tm | 專一性不佳 |
-| CD63 | H5C6 | 170Er | 未偵測到染色訊號 |
+| CD8a | SK1 | <sup>168</sup>Er | 未偵測到染色訊號 |
+| CD79a | HM57 | <sup>169</sup>Tm | 專一性不佳 |
+| CD63 | H5C6 | <sup>170</sup>Er | 未偵測到染色訊號 |
 | HLA-DR | L243 | <sup>173</sup>Yb | 染色訊號偏弱 |
 
 **3.2.3 | 血液樣本**
@@ -385,21 +385,21 @@ Memory T cells 的辨識曾比較 CD44/CD62L 與 CD44/Eomes。由於 CD62L stain
 
 **圖9 | 用於辨識 viable CD45⁺ single-cell population 的 clean-up gating strategy**
 
-使用 monocyte marker CD14、191Ir 與 <sup>195</sup>Pt 進行資料清理與 singlet/live-cell gating，以排除 calibration beads、dead cells、doublets 及不適合後續分析的 events。
+使用單核球標記 CD14、<sup>191</sup>Ir 與 <sup>195</sup>Pt，辨識存活 CD45⁺ 單細胞族群所採用的清理式 gating strategy。
 
 **圖10 | Hierarchical gating strategy**
 
-使用 Lunarion mass cytometer 取得的冷凍保存犬 PBMCs 代表性 manual gating。其 gating 邏輯與 CyTOF XT 分析一致，用於確認本面板可在不同 mass cytometry instruments 上辨識主要 leukocyte subsets。
+階層式 gating strategy。使用 Lunarion mass cytometer 對冷凍保存犬 PBMCs 進行 manual gating 的代表性範例。首先以任一 marker 對時間作圖進行 gating，以確保資料品質與一致性。接著以 DNA 嵌入劑（DNA intercalator）對單核球標記 CD14 的 bivariate plot 選取單細胞事件（singlets）。隨後藉由排除 <sup>195</sup>Pt 陽性細胞辨識存活細胞。再以 CD45 <sup>141</sup>Pr 確認白血球身分。T 細胞與 B 細胞分別以 CD3 與 CD21 辨識，B 細胞身分再以 CD22 與 MHC-II 表現（CD22⁺MHC-II⁺）確認。CD3⁺ 族群中，NKT 細胞定義為 CD94⁺，傳統型 T 細胞定義為 CD94⁻，並評估 NKT 細胞上 CD4 與 CD8 的表現。傳統型 T 細胞進一步分為單陽性 CD4⁺ T 細胞（CD4⁺CD8⁻）、單陽性 CD8⁺ T 細胞（CD4⁻CD8⁺）與雙陽性（CD4⁺CD8⁺）亞群。在 CD4⁺CD8⁻ 與 CD4⁻CD8⁺ T 細胞中，調節性 T 細胞以 CD25⁺FOXP3⁺ 辨識。排除 FOXP3⁺CD25⁺ 族群後，以 CD44 與 EOMES 將 CD4 與 CD8 T 細胞分為 naïve（CD44⁻EOMES⁻）、中央記憶（CD44⁺EOMES⁻）與效應記憶（CD44⁺EOMES⁺）亞群。亦評估 CD4 與 CD8 傳統型 T 細胞的細胞毒殺活性（Granzyme B）。B 細胞以 CD21⁺CD22⁺MHC-II⁺ 辨識。CD3⁻CD21⁻ 族群中，NK 細胞定義為 Granzyme B⁺，並依 CD94 表現進一步表徵；亦評估 NK 細胞上 CD8a 與 CD335 的表現。Granzyme B⁻ 族群中，單核球以 CD14⁺ 辨識，並進一步分為 CD4⁺ 單核球（CD4⁺MHC-II⁻）與典型單核球（CD4⁻MHC-II⁺）。CD14⁻ 族群中，DCs 定義為 CD8⁺MHC-II⁺。CD8⁻ 族群中，嗜中性球以 CD4⁺ 辨識。階層式 gating 使用 D3 進行。Mass cytometry 資料以 cofactor 5 的 ArcSinh transformation 匯出為 FCS 檔，並使用 FlowJo v10.10 分析。
 
 **圖11 | CyTOF XT 與 Lunarion 儀器比較**
 
-比較兩台 mass cytometers 對本面板主要 leukocyte subsets 所得到的 frequencies 與整體分析表現。研究藉此評估跨儀器 compatibility；雖然不同平台在部分 population frequency 上可能存在差異，整體仍可辨識相同主要細胞族群。
+CyTOF XT 與 Lunarion 儀器的比較。(A) 以 CyTOF XT 與 Lunarion 兩台儀器評估 live single CD45⁺ 細胞中各白血球亞群的頻率比較。結果以 mean ± SD 表示（n = 3，包含 D1、D3、D5970）。(B) 以 CyTOF XT 與 Lunarion 兩台儀器評估 live single CD45⁺ 細胞中白血球亞群頻率的 Bland–Altman 分析（每個亞群 n = 3，包含 D1、D3、D5970）。平均偏差（mean bias）為 −0.0714%（SD = 0.6553%），95% 一致性界限（limits of agreement）為 −1.356% 至 +1.213%。虛線表示一致性界限。
 
 **3.3 | 資料前處理、控制與其他技術考量**
 
 **3.3.1 | 資料清理、正規化與分析**
 
-Mass cytometry data 在分析前先進行 clean-up 與 normalization。使用 <sup>191</sup>Ir/<sup>193</sup>Ir intercalator 辨識 nucleated cells，<sup>195</sup>Pt cisplatin 排除 dead cells，並搭配 CD14 等訊號改善 singlet identification（圖9）。資料經適當 transformation 後匯出為 FCS files，再使用 FlowJo 進行 manual gating 與 population analysis。研究亦使用 hierarchical gating（圖10）與跨儀器比較（圖11）確認結果的一致性。
+Mass cytometry data 在分析前先進行資料清理（clean-up）與正規化（normalization）。使用 <sup>191</sup>Ir/<sup>193</sup>Ir intercalator 辨識 nucleated cells，<sup>195</sup>Pt cisplatin 排除 dead cells，並搭配 CD14 等訊號改善 singlet identification（圖9）。資料經適當 transformation 後匯出為 FCS files，再使用 FlowJo 進行 manual gating 與 population analysis。研究亦使用 hierarchical gating（圖10）與跨儀器比較（圖11）確認結果的一致性。
 
 對高維度 cytometry data 而言，gating boundaries 的細微調整可能造成各 population measured frequencies 互相變動，因此研究在解讀小型 subsets 時保持一致 gating strategy。由於 biological replicates 數量有限，統計結果應配合此限制解讀，而不是將小幅頻率差異過度延伸。
 
@@ -534,19 +534,27 @@ Dominique Revets：methodology、writing – review and editing。Antonio Cosma�
 
 #### 1. 研究背景與目的
 
-犬類在生理與免疫反應上和人類具有不少相似之處，因此常被用於藥物開發、癌症免疫研究與臨床前安全性評估。不過，Chow 等人比較犬與人類免疫反應後也指出，兩者雖然整體免疫活化反應相近，但在 T 細胞反應強度、IFN-γ 產生及部分免疫路徑上仍存在差異，因此不能直接把犬的免疫結果完全套用到人類。另一方面，過去犬類免疫表型研究可使用的專一性抗體與高維度分析工具相對有限，也增加了完整分析不同白血球族群的困難。本研究因此建立一套 15-marker mass cytometry panel，用來分析冷凍保存犬 PBMCs 中的主要白血球族群。研究希望在辨識主要免疫細胞的同時，也保留後續擴充 markers 的空間，使這套面板能依不同研究需求繼續調整。
+犬類在生理與免疫反應上和人類具有不少相似之處，因此常被用於藥物開發、癌症免疫研究與臨床前安全性評估。不過，Chow 等人比較犬與人類免疫反應後也指出 [1]，兩者雖然整體免疫活化反應相近，但在 T 細胞反應強度、IFN-γ 產生及部分免疫路徑上仍存在差異，因此不能直接把犬的免疫結果完全套用到人類。另一方面，過去犬類免疫表型研究可使用的專一性抗體與高維度分析工具相對有限，也增加了完整分析不同白血球族群的困難。本研究因此建立一套 15-marker mass cytometry panel，用來分析冷凍保存犬 PBMCs 中的主要白血球族群。研究希望在辨識主要免疫細胞的同時，也保留後續擴充 markers 的空間，使這套面板能依不同研究需求繼續調整。
 
 #### 2. 方法
 
-研究以 CyTOF XT mass cytometer 進行主要的 panel optimization 與 antibody titration，最後再使用 Lunarion mass cytometer 測試跨儀器的相容性。Iyer 等人整理 mass cytometry 的實驗流程時指出，這項技術能在有限樣本中同時分析大量細胞標記，但 panel design、antibody conjugation、sample staining、acquisition 與後續資料處理都會影響結果，因此需要完整的最佳化流程。本研究的面板包含 15 個主要 antibody markers，另外搭配 <sup>191</sup>Ir/<sup>193</sup>Ir Cell-ID Intercalator 與 <sup>195</sup>Pt Cisplatin 進行 single-cell 與 live/dead discrimination。研究利用 CD3、CD4、CD8a、CD21、CD22、CD94、Granzyme B、CD14、MHC-II 等 markers 辨識主要免疫細胞，並以 CD25/FOXP3 及 CD44/Eomes 進一步分析 T cell subsets。PBMCs 經分離與冷凍保存後，再依序進行解凍、細胞存活率染色、surface staining、intracellular staining、mass cytometry acquisition 與 FlowJo analysis。
+研究以 CyTOF XT mass cytometer 進行主要的 panel optimization 與 antibody titration，最後再使用 Lunarion mass cytometer 測試跨儀器的相容性。Iyer 等人整理 mass cytometry 的實驗流程時指出 [2]，這項技術能在有限樣本中同時分析大量細胞標記，但 panel design、antibody conjugation、sample staining、acquisition 與後續資料處理都會影響結果，因此需要完整的最佳化流程。本研究的面板包含 15 個主要 antibody markers，另外搭配 <sup>191</sup>Ir/<sup>193</sup>Ir Cell-ID Intercalator 與 <sup>195</sup>Pt Cisplatin 進行 single-cell 與 live/dead discrimination。研究利用 CD3、CD4、CD8a、CD21、CD22、CD94、Granzyme B、CD14、MHC-II 等 markers 辨識主要免疫細胞，並以 CD25/FOXP3 及 CD44/Eomes 進一步分析 T cell subsets。PBMCs 經分離與冷凍保存後，再依序進行解凍、細胞存活率染色、surface staining、intracellular staining、mass cytometry acquisition 與 FlowJo analysis。
 
 #### 3. 主要發現
 
-最終面板可辨識 B cells、CD4⁺ helper T cells、CD8⁺ cytotoxic T cells、Tregs、NKT cells、NK cells、DCs、CD4⁺ monocytes、classical monocytes 及 neutrophils 等主要犬免疫細胞。T cells 還能利用 CD44 與 Eomes 區分 naïve、central memory 與 effector memory subsets，因此除了觀察主要細胞族群，也能進一步分析部分 T 細胞的分化狀態。過去 OMIP-065 已使用 14-color flow cytometry panel 分析犬 PBMCs 的免疫細胞組成與 T-cell activity，並強調冷凍 PBMCs 批次分析可降低不同實驗批次間的差異；OMIP-121 則進一步利用 mass cytometry 擴大可同時分析的標記與細胞類型。研究最佳化過程也顯示，部分原先預計使用的 human antibodies 在犬細胞上會出現無染色、訊號過弱或 specificity 不佳等情況，因此最後未納入面板。比較 CyTOF XT 與 Lunarion 後，主要 leukocyte populations 在兩台儀器上皆可辨識，但 FoxP3、Granzyme B 與 Eomes 仍有較高 background staining，顯示這些標記仍有進一步最佳化空間。
+最終面板可辨識 B cells、CD4⁺ helper T cells、CD8⁺ cytotoxic T cells、Tregs、NKT cells、NK cells、DCs、CD4⁺ monocytes、classical monocytes 及 neutrophils 等主要犬免疫細胞。T cells 還能利用 CD44 與 Eomes 區分 naïve、central memory 與 effector memory subsets，因此除了觀察主要細胞族群，也能進一步分析部分 T 細胞的分化狀態。過去 OMIP-065 已使用 14-color flow cytometry panel 分析犬 PBMCs 的免疫細胞組成與 T-cell activity [3]，並強調冷凍 PBMCs 批次分析可降低不同實驗批次間的差異；OMIP-121 則進一步利用 mass cytometry 擴大可同時分析的標記與細胞類型。研究最佳化過程也顯示，部分原先預計使用的 human antibodies 在犬細胞上會出現無染色、訊號過弱或 specificity 不佳等情況，因此最後未納入面板。比較 CyTOF XT 與 Lunarion 後，主要 leukocyte populations 在兩台儀器上皆可辨識，但 FoxP3、Granzyme B 與 Eomes 仍有較高 background staining，顯示這些標記仍有進一步最佳化空間。
 
 #### 4. 應用價值
 
-OMIP-121 提供一套以 mass cytometry 分析犬 PBMCs 的高維度免疫表型面板，可在一次實驗中觀察多種主要免疫細胞及部分 T cell differentiation states。相較於 OMIP-065 使用傳統多色 flow cytometry 的方式，本研究利用 mass cytometry 可使用較多 metal channels 的特性，讓面板在保留現有標記的同時，仍具有加入其他 markers 的擴充空間。Chow 等人的研究顯示犬與人類的免疫反應具有廣泛相似性，但也存在不能忽略的功能差異，因此這類犬免疫表型資料的價值，不是直接取代人類資料，而是提供轉譯研究與跨物種比較時更完整的參考。對藥物開發、臨床前安全性研究、犬疾病免疫監測及比較腫瘤學而言，這套面板都具有後續應用與調整的可能性。整體而言，OMIP-121 可作為犬類高維度免疫分析的基礎，再依不同疾病或研究目的加入新的標記。
+OMIP-121 提供一套以 mass cytometry 分析犬 PBMCs 的高維度免疫表型面板，可在一次實驗中觀察多種主要免疫細胞及部分 T cell differentiation states。相較於 OMIP-065 使用傳統多色 flow cytometry 的方式，本研究利用 mass cytometry 可使用較多 metal channels 的特性，讓面板在保留現有標記的同時，仍具有加入其他 markers 的擴充空間。Chow 等人的研究顯示犬與人類的免疫反應具有廣泛相似性 [1]，但也存在不能忽略的功能差異，因此這類犬免疫表型資料的價值，不是直接取代人類資料，而是提供轉譯研究與跨物種比較時更完整的參考。對藥物開發、臨床前安全性研究、犬疾病免疫監測及比較腫瘤學而言，這套面板都具有後續應用與調整的可能性。整體而言，OMIP-121 可作為犬類高維度免疫分析的基礎，再依不同疾病或研究目的加入新的標記。
 
 
 ## 參考資料
+
+「詳細摘要」四節中以作者姓名引用的文獻，對應原文參考文獻編號如下（其餘段落已於行內保留原文的 `[n]` 編號）：
+
+1. L. Chow, W. Wheat, D. Ramirez, R. Impastato, and S. Dow, "Direct Comparison of Canine and Human Immune Responses Using Transcriptomic and Functional Analyses," *Scientific Reports* 14, no. 1 (2024): 2207.
+2. A. Iyer, A. A. J. Hamers, and A. B. Pillai, "CyTOF for the Masses," *Frontiers in Immunology* 13 (2022): 815828.
+3. S. Pantelyushin, E. Ranninger, R. Bettschart-Wolfensberger, and J. vom Berg, "OMIP-065: Dog Immunophenotyping and T-Cell Activity Evaluation With a 14-Color Panel," *Cytometry, Part A* 97, no. 10 (2020): 1024–1027.
+
+本文原始出處：Luong H. T. T., et al. "OMIP-121: Immune Phenotyping of Canine Peripheral Leukocytes by Mass Cytometry," *Cytometry Part A*. 2026;109(6):393–412. <https://doi.org/10.1002/cyto.a.70040>（CC BY-NC 4.0）
